@@ -2,7 +2,7 @@
 # Developer: t3ww
 
 # 1. Overview
-Another Lands is a 2D loot-based RPG set in a dystopian fantasy world where advanced technology is rare and limited to the wealthy. The majority of people rely on recycling scraps and adapting to survive. Magic exists but is largely overshadowed by technology.
+Another Lands is a 2D loot-based RPG set in a `post-dystopian` fantasy world where advanced technology is rare and limited to the wealthy. The majority of people rely on recycling scraps and adapting to survive. Magic exists *but* is largely overshadowed by technology due to it's unstability.
 
 The game combines elements of procedural generation, progression-based gameplay, and flexible class mechanics, drawing inspiration from games like Terraria, Roguelands, and Magicite.
 As well as having immersive mage’s spell tinkering inspired by Noita.
@@ -106,6 +106,7 @@ Mark them favourite to avoid unintentional bad moves like quick stack and trashi
 # 6. Event listener
 An event listener system allows dynamic assignment, triggering, and unassigning of events.
 Currently no clear plans on what to do with it, but it’d be mainly used for world events and town events. Affecting the NPCs behaviors.
+
 # 7. AI NPC Systems
 - There are Persistent NPCs and Temporarily NPCs 
     - Persistent NPCs are procedurally generated with the world and remain persistent.
