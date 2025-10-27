@@ -80,14 +80,18 @@ AnotherLands-project
 
 ---
 
-## 🧩 Optional: Idea Tagging System
+## 🧩 Tags
 
 To future-proof your notes, tag each entry with small references.
 
-Example:
+| Tag           | Meaning                                                     | Where it’ll go later                          |
+| ------------- | ----------------------------------------------------------- | --------------------------------------------- |
+| 🧱 `#core`    | Direct gameplay mechanics, player control, combat, UI logic | `core/gameplay.md`, `core/classes/`           |
+| ⚙️ `#system`  | Underlying game systems, logic, and frameworks              | `system/` (crafting, events, AI, glove, etc.) |
+| 🌍 `#world`   | Towns, unsafe zones, travel, map structure                  | `world/`                                      |
+| 🧠 `#lore`    | Story, factions, mythos, historical or emotional context    | `lore/`                                       |
+| 💰 `#content` | Loot, enemies, activities, quests, or one-off ideas         | `content/`                                    |
+| 🧪 `#sandbox` | Unclear ideas, future possibilities, experiments            | `designs/sandbox.md`                          |
 
-```
-**Tags:** #system #crafting #npc #progression
-```
 
-If you later migrate to **Obsidian**, **Notion**, or a custom search script, these tags automatically create searchable connections between related concepts (e.g., all crafting-related systems or NPC behavior notes).
+*If you later migrate to **Obsidian**, **Notion**, or a custom search script, these tags automatically create searchable connections between related concepts (e.g., all crafting-related systems or NPC behavior notes).*

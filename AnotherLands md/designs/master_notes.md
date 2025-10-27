@@ -1,10 +1,13 @@
 Project’s vision: Another Lands
 Developer: t3ww
-1. Overview
+
+# 1. Overview
 Another Lands is a 2D loot-based RPG set in a dystopian fantasy world where advanced technology is rare and limited to the wealthy. The majority of people rely on recycling scraps and adapting to survive. Magic exists but is largely overshadowed by technology.
+
 The game combines elements of procedural generation, progression-based gameplay, and flexible class mechanics, drawing inspiration from games like Terraria, Roguelands, and Magicite.
 As well as having immersive mage’s spell tinkering inspired by Noita.
-2. World Design & Generation
+
+# 2. World Design & Generation
 The world is structured as a fixed grid, with towns placed based on seeds and unsafe areas generated dynamically.
 Towns serve as hubs for storage, crafting, medical facilities, refineries, cooking, potion brewing, and shopping.
 Exploration zones (unsafe areas) exist between towns and are randomly generated with each visit. Players can choose different difficulty levels for these zones.
