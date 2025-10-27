@@ -1,5 +1,5 @@
-Project’s vision: Another Lands
-Developer: t3ww
+# Project’s vision: Another Lands
+# Developer: t3ww
 
 # 1. Overview
 Another Lands is a 2D loot-based RPG set in a dystopian fantasy world where advanced technology is rare and limited to the wealthy. The majority of people rely on recycling scraps and adapting to survive. Magic exists but is largely overshadowed by technology.
@@ -9,106 +9,120 @@ As well as having immersive mage’s spell tinkering inspired by Noita.
 
 # 2. World Design & Generation
 The world is structured as a fixed grid, with towns placed based on seeds and unsafe areas generated dynamically.
+
 Towns serve as hubs for storage, crafting, medical facilities, refineries, cooking, potion brewing, and shopping.
-Exploration zones (unsafe areas) exist between towns and are randomly generated with each visit. Players can choose different difficulty levels for these zones.
+
+`Exploration zones (unsafe areas)` exist between towns and are randomly generated with each visit. Players can choose different difficulty levels for these zones.
 The left and right world edges are oceans, with possible future expansions.
 Room templates are used in unsafe areas, with paths blocked/unblocked dynamically based on environmental changes (e.g., a dried-out river revealing a path).
-Town & Unsafe Area Travel System
- When exiting a town, players can choose between left or right exits. This determines:
+
+`Town & Unsafe Area Travel System`
+When exiting a town, players can choose between left or right exits. This determines:
 The destination town is based on a map grid.
 The variant of the unsafe area (left- or right-oriented room templates).
-Unsafe Areas & Door Progression
+
+`Unsafe Areas & Door Progression`
  Unsafe areas present 3–4 doors at the end, depending on the player’s current run progression:
-First 3 unsafe areas after leaving town :
- Feature 3 doors (50% chance otherwise 4 doors):
-First door: 70% chance to be the same tier, 30% to be one tier higher.
-Second & third doors: always one tier higher.
+
+`First 3 unsafe areas after leaving town:`
+- Feature 3 doors (50% chance otherwise 4 doors):
+    - First door: 70% chance to be the same tier, 30% to be one tier higher.
+    - Second & third doors: always one tier higher.
+
+`After 3 unsafe areas :`
+- Feature 4 doors (100% chance):
+    - First door: 70% chance to be the same tier, 30% to be one tier higher.
+    - Second & third doors: always one tier higher.
+    - Fourth door: always leads to the next town in destination.
 
 
-After 3 unsafe areas :
- Feature 4 doors (100% chance):
-First door: 70% chance to be the same tier, 30% to be one tier higher.
-Second & third doors: always one tier higher.
-Fourth door: always leads to the next town in destination.
+# 3. Gameplay & Mechanics
+`Class System`
 
-
-3. Gameplay & Mechanics
-Class System
 Players can freely swap between class-based weapons, armors and accessories, similar to Terraria.
-Melee Class (Mobility & Survivability)
-Focuses on dodging, parrying, and movement.
-Uses grappling hooks and movement tools for repositioning.
-Combo-based combat, rewarding chaining attacks together.
-Light weapons = speed; heavy weapons = stagger & armor penetration.
-Updated Melee Class (Mobility & Survivability)
-Focuses on dodging, parrying, and movement rather than raw defense.
-Grappling Hooks & Tools: Used for repositioning and environmental utility.
-Combo-Based Combat: Certain attacks chain into others for efficiency.
-Weapon Variety: Light weapons for speed, heavy weapons for stagger & armor penetration.
-Directional Parry System:
-Players parry by pointing the mouse toward the incoming attack’s direction.
-6-direction system: 3 directions for attacks coming from the left, 3 for attacks from the right.
-Flying/Top attacks: Can be blocked using top-left or top-right parry directions.
-Bottom/under attacks: Cannot be parried; players must dodge or jump.
-Rewards skillful reading of attack patterns rather than simple timing.
 
-Ranger Class (Precision & Power)
-High-damage, skill-based class with no aim assist but slightly larger hitboxes for balance.
-Recoil mechanics for added difficulty and skill expression.
-Magazine/Quiver System:
-Different ammo types (fire, poison, armor-piercing, etc.).
-Weapons provide synergies with certain ammo (e.g., snipers boost armor-piercing).
-Reloading system balances high-damage options.
-Mage Class (Versatility & Control)
-Mana Regeneration Mechanic:
-Casting spells creates mana stars at impact points.
-Collecting stars grants stacking mana regeneration buffs.
+# ⚔️ Melee Class (Mobility & Survivability)
+- Focuses on dodging, parrying, and movement.
+- Uses grappling hooks and movement tools for repositioning.
+- Combo-based combat, rewarding chaining attacks together.
+- Light weapons = speed; heavy weapons = stagger & armor penetration.
+#### Updated Melee Class (Mobility & Survivability)
+- Focuses on dodging, parrying, and movement rather than raw defense.
+- Grappling Hooks & Tools: Used for repositioning and environmental utility.
+- Combo-Based Combat: Certain attacks chain into others for efficiency.
+- Weapon Variety: Light weapons for speed, heavy weapons for stagger & armor penetration.
+## Directional Parry System:
+- Players parry by pointing the mouse toward the incoming attack’s direction.
+- 6-direction system: 3 directions for attacks coming from the left, 3 for attacks from the right.
+- Flying/Top attacks: Can be blocked using top-left or top-right parry directions.
+- Bottom/under attacks: Cannot be parried; players must dodge or jump.
+- Rewards skillful reading of attack patterns and being patient rather than simple timing.
+
+# 🏹 Ranger Class (Precision & Power)
+- High-damage, skill-based class with no aim assist but slightly larger hitboxes for balance.
+- Recoil mechanics for added difficulty and skill expression.
+## Magazine/Quiver System:
+- Different ammo types (fire, poison, armor-piercing, etc.).
+- Weapons provide synergies with certain ammo (e.g., snipers boost armor-piercing).
+- Reloading system balances high-damage options.
+
+# 🪄 Mage Class (Versatility & Control)
 A skilled mage can maintain infinite mana, rewarding precision.
-Tamer Class (All-rounder but hard to progress)
-Minion Focus: Combat effectiveness depends entirely on summoned creatures.
-Slow Start, Strongest Late Game: Requires investment in minions to reach full potential.
-Some summons are Rideable for mobility.
-Summons that can be upgraded by gearing them up such as armor or special attachment like booster and steel claws.
-Taming System:
-Requires effort and following tasks to tame new creatures.
-Failing to tame has consequences (potential hostility, lost resources, etc.).
-Minion Customization: Different minions provide unique abilities, allowing for tailored builds. 
-Can also do everything but requires a lot of effort to collect them all.
+## Mana Regeneration Mechanic:
+- Casting spells creates mana stars at impact points.
+- Collecting stars grants stacking mana regeneration buffs.
 
-4. Companion & Utility Features
-Companion Drones
+# 🍖 Tamer Class (All-rounder but hard to progress)
+Can basically do everything but requires a lot of effort to collect them all.
+- `Minion Focus:` Combat effectiveness depends entirely on summoned creatures.
+- Slow Start, Strongest Late Game: Requires investment in minions to reach full potential.
+- Some summons are Rideable for mobility.
+- Summons that can be upgraded by gearing them up such as armor or special attachment like booster and steel claws.
+## Taming System:
+- Requires effort and following tasks to tame new creatures.
+- Failing to tame has consequences? (potential hostility, lost resources, etc.).
+- `Minion Customization:` Different minions provide unique abilities, allowing for tailored builds. 
+
+# 4. Companion & Utility Features
+## Companion Drones
 They are assistive drones that help with tedious tasks.
 These drones function similarly to Roguelands, providing utility and general assistants.
 The companion drone is initially dormant and only activates when the player equips the smart glove.
+
 Will be able to upgrade for more tasks for them to do, and possibly ability to assist in combat.
 Players will be able to unlock different models of them for cosmetics purposes.
-Smart Glove (thematic detail)
-Acts as the player’s main UI hub:
-Inventory, messages, quests, map access.
-Attachable utility functions, such as an item magnet.
-Accessory slot system, similar to Terraria.
-5. Inventory System & UI
+
+## Smart Glove (thematic detail)
+`Acts as the player’s main UI hub:`
+- Inventory, messages, quests, map access.
+- Attachable utility functions, such as an item magnet.
+- Accessory slot system, similar to Terraria.
+
+# 5. Inventory System & UI
 Inspired by Terraria, with mouse interactions with quick-stack and sorting buttons to manage items.
 Side-to-side Stats comparison system for convenience.
 Mark them favourite to avoid unintentional bad moves like quick stack and trashing loved items.
-6. Event listener
+
+# 6. Event listener
 An event listener system allows dynamic assignment, triggering, and unassigning of events.
 Currently no clear plans on what to do with it, but it’d be mainly used for world events and town events. Affecting the NPCs behaviors.
-7. AI NPC Systems
-There are Persistent NPCs and Temporarily NPCs 
-Persistent NPCs are procedurally generated with the world and remain persistent.
-Persistent NPCs have memorable interactions with the player and may travel to different locations.
-Persistent NPCs are random but have some fixed conditions to avoid predictability.
-Temporarily NPCs are randomly generated to fill up the scenery, player’s should be able to seamlessly distinguish them from the persistent ones by design.
+# 7. AI NPC Systems
+- There are Persistent NPCs and Temporarily NPCs 
+    - Persistent NPCs are procedurally generated with the world and remain persistent.
+    - Persistent NPCs have memorable interactions with the player and may travel to different locations.
+    - Persistent NPCs are random but have some fixed conditions to avoid predictability.
+    - Temporarily NPCs are randomly generated to fill up the scenery, player’s should be able to seamlessly distinguish them from the persistent ones by design.
 
-8. Economy & Resources
+# 8. Economy & Resources
 The game will use a single currency system for simplicity and accessibility.
 Economy balance will focus on fair progression without overcomplication.
 We’ll be using lesser numbers for easier counting such as an apple is $1 rather than $10 in some games.
-9. Audio & Visual Design
+
+# 9. Audio & Visual Design
 Pixel-art aesthetic with potential for enhanced lighting effects.
 Has not yet explored audio design.
-10. Development Plans
+
+# 10. Development Plans
 Immediate Goals
 Refine inventory system (finalizing interactions).
 Crafting system with towns generation templates.
@@ -122,11 +136,15 @@ Optional Goals
 Make unforgettable beautiful scenery designs.
 Implement a quest system with well-written, rewarding content.
 Sand-box content area.
-11. Extra ideas
-Inventories idea: so in the way it saved is that in each towns there’s storage, and these storage are able to connect to inventory, thus saving items, so the items during the run will drop; ideas is that we might let player upgrades inventory slots that makes that slot not drop item, i can also give bigger stack size, etc
-Progression guide built-in to the one of the ui’s hub page, showing list of things players could get, categorized, just like how wiki would be. Which are shown based on what’s available for the player currently based on area visited and resources in inventory.
-Crafting can be detailed like crafting blades at smithing shop and user have to actually learn to get good at it in it’s minigame, when they get good quality for good amount of times, the npc will level up in certain skill set, such as crafting perfect sword blades often will let npc learns to make better blades for all things like axes and knives too.
-Crafting may include procedures of crafting each component of the item before putting them together.
+
+# 11. Extra ideas
+- Inventories idea: so in the way it saved is that in each towns there’s storage, and these storage are able to connect to inventory, thus saving items, so the items during the run will drop; ideas is that we might let player upgrades inventory slots that makes that slot not drop item, i can also give bigger stack size, etc
+
+- Progression guide built-in to the one of the ui’s hub page, showing list of things players could get, categorized, just like how wiki would be. Which are shown based on what’s available for the player currently based on area visited and resources in inventory.
+
+- Crafting can be detailed like crafting blades at smithing shop and user have to actually learn to get good at it in it’s minigame, when they get good quality for good amount of times, the npc will level up in certain skill set, such as crafting perfect sword blades often will let npc learns to make better blades for all things like axes and knives too.
+
+- Crafting may include procedures of crafting each component of the item before putting them together.
 
 By chat
 Here’s a refined project design format suggestion, based on professional game design docs, tailored for solo/indie workflow like yours.
