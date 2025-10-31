@@ -92,6 +92,13 @@ The companion drone is initially dormant and only activates when the player equi
 Will be able to upgrade for more tasks for them to do, and possibly ability to assist in combat.
 Players will be able to unlock different models of them for cosmetics purposes.
 
+### Drone Mechanic Overview:
+
+1.	`Initial Bonding Phase:` The player begins with a drone that adapts to their actions, learning and developing a unique personality based on player behavior. The drone offers personalized dialogue and reactions, creating a strong emotional connection.
+2.	`Switch Mechanic:` At a pivotal point in the story, players have the option to switch to a new, upgraded drone. This switch is tied to significant plot events, such as the original drone’s sacrifice or damage.
+3.	`Consequences of Switching:` While the new drone offers specialized abilities, it lacks the depth and personality of the original, leading to a sense of loss for players. The dialogue is more robotic and generic, emphasizing the trade-off between efficiency and emotional connection.
+4.	`Emotional Impact:` This mechanic encourages players to reflect on the value of companionship, highlighting themes of friendship, sacrifice, and the costs of progress. Players may experience nostalgia for their original drone, creating memorable storytelling moments.
+
 ## Smart Glove (thematic detail)
 `Acts as the player’s main UI hub:`
 - Inventory, messages, quests, map access.
@@ -147,305 +154,7 @@ Sand-box content area.
 
 - Crafting may include procedures of crafting each component of the item before putting them together.
 
-By chat
-Here’s a refined project design format suggestion, based on professional game design docs, tailored for solo/indie workflow like yours.
-
-Another Lands – Project Design Document
-By: t3ww
-
-1. Game Overview
-Genre: 2D Procedural Loot-Based RPG
-Themes: Dystopian Fantasy, Tech-Magic Hybrid
-Inspiration: Terraria, Roguelands, Magicite, Noita
-Hook: Freely swappable class mechanics + immersive spell system + persistent world-linked NPCs + meaningful exploration
-
-2. World Structure
-2.1 World Layout
-Fixed grid of towns
-
-
-Unsafe areas (exploration zones) are procedurally generated
-
-
-Left/right world edges = oceans
-
-
-Room templates define structure; dynamic path blocking/unblocking based on environment
-
-
-2.2 Towns
-Seed-based generation
-
-
-Facilities: crafting, cooking, medical, refining, potion brewing, shops
-
-
-Storage is town-specific but connects to player inventory during visits
-
-
-Some towns have exclusive services or NPCs
-
-
-2.3 Unsafe Areas & Travel
-Randomly generated each run
-
-
-Tier-based difficulty scaling
-
-
-Travel determines zone direction (left/right rooms)
-
-
-Door system:
-
-
-First 3 areas: 3 doors (sometimes 4)
-
-
-After 3 areas: 4 doors; last door leads to destination town
-
-
-
-3. Core Gameplay & Progression
-3.1 Class System (Flexible, Item-Based)
-Players are not locked to a class — their gear determines their style.
-Melee: Mobility, parrying, combo chains, light vs. heavy weapon depth
-
-
-Ranger: Precision, recoil handling, ammo synergies (e.g., sniper + armor-piercing)
-
-
-Mage: Noita-style spell system, mana regeneration loop via skill
-
-
-Tamer: Minion-focused; slow start, late-game powerhouse; summons with gear & mounts
-
-
-3.2 Combat Mechanics
-Active dodging, movement, spell and resource management
-
-
-Mini-boss triggers and tiered bosses for progression
-
-
-
-4. Player Tools & Equipment
-4.1 Smart Glove (Core UI Hub)
-Inventory, map, quest logs
-
-
-Upgrades: item magnet, utility tools
-
-
-Hosts accessory slots (like Terraria)
-
-
-4.2 Companion Drones
-Activates with glove
-
-
-Performs fetch, scan, assist tasks
-
-
-Customizable and upgradable (combat, visuals, tools)
-
-
-4.3 Utility Tools (future section)
-Grappling hooks, scanners, gliders, terraforming tools
-
-
-Exploration-enhancing, not focused on combat
-
-
-
-5. Inventory & Crafting
-5.1 Inventory System
-Terraria-style UI with quick-stack, sorting, comparison
-
-
-Town storage connects to inventory
-
-
-Slot upgrades: prevent item drops, increase stack size
-
-
-5.2 Crafting System (Planned)
-Multi-step: component crafting before full item assembly
-
-
-Skill-based minigames for blacksmithing, potion-making, etc.
-
-
-NPCs level up their own crafting skills based on what you do
-
-
-5.3 Built-in Progression Guide
-Auto-populates based on player discoveries
-
-
-Functions like a contextual in-game wiki
-
-
-
-6. AI & NPCs
-6.1 Persistent NPCs
-Generated with the world
-
-
-Travel between towns
-
-
-Have set personalities, relationships, and progression flags
-
-
-Some semi-scripted behaviors to maintain world immersion
-
-
-6.2 Temporary NPCs
-Fill town population for ambiance
-
-
-Visually or behaviorally distinct from persistent NPCs
-
-
-
-7. Economy & Resources
-Single-currency system
-
-
-Items have low values for easier math (e.g., apple = $1)
-
-
-Economy scales with exploration tier
-
-
-Resources gathered from unsafe zones, trades, and events
-
-
-
-8. Event System
-Event listener system (planned use: world/NPC behavior changes)
-
-
-Could trigger NPC migrations, store changes, town events, world hazards
-
-
-
-9. Visual & Audio
-Simple pixel art with plans for enhanced lighting
-
-
-Sound design TBD (may outsource or use libraries)
-
-
-
-10. Development Roadmap
-Current Focus
-Inventory system polish
-
-
-Town generation
-
-
-Unsafe area room templates
-
-
-Next Milestones
-Basic crafting framework
-
-
-NPC persistence system
-
-
-Combat prototype
-
-
-Future Goals
-Multiplayer
-
-
-Ocean/late-game expansions
-
-
-Dynamic quests with long-term impact
-
-
-Aesthetic & atmospheric content (e.g., magical forests)
-
-
-
-11. Optional/Experimental Ideas
-Special progression slots (never drop items)
-
-
-Custom upgrade trees for summons
-
-
-Tools that modify terrain temporarily (for puzzle or movement)
-
-
-AI events causing town shifts or disasters
-
-
-Quests that change how NPCs respond in future towns
-
-
-Sandbox “relaxation” zone with aesthetic tools
-
-
-12. Content ideas:
-
-12.1 Enemies
-Sky Piercer (Temp Name)
-✔ Giant predatory bird that watches from the sky.
-✔ Impact: Forces the player to keep moving or use cover—or risk being snatched and slammed into hard surfaces.
-✔ Tells:
-Eagle screech before dive <- or as a tell that it’s in the area.
-
-
-Maybe small stones or dust kicked up when diving.
-
- ✔ Behavior:
-
-
-Ignores player when under cover, like trees.
-
-
-Targets players in open areas and standing still,
-
-
-Will retreat after a failed grab attempt, resetting stalk.
-
- ✔ Possible loot:
-
-
-Feathers (for glide upgrade?),
-
-
-Beak scrap (for weapon mod?),
-
-
-Rare: “Sky Talon Chip”—maybe unlocks air dash upgrade?
-
-Extra idea
-allows player to sell all unfavorited items in their possession, the idea is for like, player’s retirement, and they sell all and those money might just be enough to start a business in a town.
-Summon taming ideas, implement bleedout system for every enemy so that enemy at an amount value of hp(let’s say 1%) will get unconscious and will bleed until death unless healed
-so the summoner have to heal their wound to keep them alive while taming them
-excessive healing may get them up and back into fight, with some chance of them fleeing or instantly tamed
-summoners’ minions will avoid attacking entity in bleedout state
-Name changes
-Summoner -> tamer, minions -> familiar
-Familiar bond, 
-by keep doing actions like taming to the familiar will grows the bond more and more granting both familiar and player some buffs or unlocking new moves for the familiar, player may choose
-Inventories idea: 
-so in the way it saved is that in each towns there’s storage, and these storage are able to connect to inventory, thus saving items, so the items during the run will drop; ideas is that we might let player upgrades inventory slots that makes that slot not drop item, i can also give bigger stack size, etc
-Drone Mechanic Overview: (maybe no)
-1.    Initial Bonding Phase: The player begins with a drone that adapts to their actions, learning and developing a unique personality based on player behavior. The drone offers personalized dialogue and reactions, creating a strong emotional connection.
-2.    Switch Mechanic: At a pivotal point in the story, players have the option to switch to a new, upgraded drone. This switch is tied to significant plot events, such as the original drone’s sacrifice or damage.
-3.    Consequences of Switching: While the new drone offers specialized abilities, it lacks the depth and personality of the original, leading to a sense of loss for players. The dialogue is more robotic and generic, emphasizing the trade-off between efficiency and emotional connection.
-4.    Emotional Impact: This mechanic encourages players to reflect on the value of companionship, highlighting themes of friendship, sacrifice, and the costs of progress. Players may experience nostalgia for their original drone, creating memorable storytelling moments.
-
-Activities idea
+## Activities idea
 1.	Fishing 	
 2.	Alchemy 	
 3.	Treasure Hunting 	
@@ -456,3 +165,92 @@ Activities idea
 8.	Musical Performances 	
 9.	Gardening 	
 10.	Board Games
+
+# Events idea (from chatgpt)
+Here are some ideas and examples of how you could implement various events and activities:
+
+`In-Game Events and Festivals`
+
+## Daily Events:
+
+`Shops and Businesses:` NPCs open and close their shops at specific times. For example, a blacksmith might be available from 9 AM to 5 PM.
+
+`NPC Routines:` NPCs could have daily schedules, such as visiting the market in the morning, working during the day, and relaxing at a tavern in the evening.
+
+## Weekly Events:
+
+`Market Day:` Every Saturday, a special market appears in the town square with unique items and vendors.
+
+`Tournaments:` Weekly competitions, such as fishing contests, shooting ranges, or cooking contests.
+
+## Seasonal Events:
+
+`Spring Festival:` Celebrate the beginning of spring with flower planting, egg hunts, and special quests.
+
+`Summer Fair:` Activities like fishing competitions, barbecues, and outdoor concerts.
+
+`Autumn Harvest Festival:` Harvest-related mini-games, cooking contests, and craft fairs.
+
+`Winter Festival:` Ice skating, snowball fights, and festive decorations.
+
+## Annual Festivals:
+
+`New Year Celebration:` Fireworks, special quests, and time-limited rewards.
+
+`Halloween Event:` Spooky quests, costumes, and themed mini-games.
+
+`Christmas Event:` Gift-giving quests, holiday decorations, and festive music.
+
+## Implementation Ideas
+
+### Event Triggers:
+
+- Use your existing date and time system to trigger events. For example, on the first day of spring, start the Spring Festival.
+
+Implement a function that checks the current date and triggers events accordingly.
+
+## Activities and Mini-Games:
+
+`Flower Planting:` For the Spring Festival, players could participate in a mini-game to plant and water flowers.
+
+`Fishing Contest:` During the Summer Fair, have a fishing mini-game where players compete for the biggest catch.
+
+`Snowball Fight:` For the Winter Festival, include a snowball fight mini-game where players can compete against NPCs or other players.
+
+### Rewards and Incentives:
+
+*Offer unique items, achievements, or currency for participating in events.*
+
+Special event-only items that can be used to decorate the player's hub or improve their character.
+
+### Visual and Audio Elements:
+
+`Decorations:` Change the appearance of towns and environments based on the season or event.
+
+`Music:` Play special event-themed music during festivals.
+
+`NPC Behavior:` NPCs can have different dialogues and actions during events, enhancing the festive atmosphere.
+
+# Example Festival Design
+
+## Winter Festival Example:
+
+`Date:` December 20th to December 31st
+
+## Activities:
+
+`Ice Skating:` Set up an ice rink where players can skate and perform tricks.
+
+`Snowball Fight:` Players can engage in a snowball fight mini-game.
+
+`Gift Exchange:` NPCs give and receive gifts, with the player participating in a gift-giving quest.
+
+`Special Quests:` Quests related to finding and decorating a Christmas tree, or helping NPCs prepare for the festival.
+
+## Rewards:
+
+`Unique Decorations:` Christmas lights, snowmen, and other festive items.
+
+`Special Equipment:` Winter-themed clothing or gear.
+
+`Achievements:` Unlockable achievements for participating in and winning various activities.
