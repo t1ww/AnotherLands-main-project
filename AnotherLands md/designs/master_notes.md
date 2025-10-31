@@ -65,6 +65,11 @@ Players can freely swap between class-based weapons, armors and accessories, sim
 - Different ammo types (fire, poison, armor-piercing, etc.).
 - Weapons provide synergies with certain ammo (e.g., snipers boost armor-piercing).
 - Reloading system balances high-damage options.
+## Ranger spraying
+- `Core idea:` Some ppl may dislike the weapon shooting directly at cursor, and wanted to just long range spray from further, what if we allow that.
+- `Main point:` Within the range from mouse to player the bullet will not hit anything, and from after the mouse on, the bullets may hit, and also bullets would travel with raycast rather than projectile so it has better chance of hitting. *by Mouse: I meant the precision cursor.
+- `Yes:` Shotguns will have bigger precision cursor.
+- `Maybe:` Scatter ammo for normal guns like rifles, which makes it basically like shotguns.
 
 # 🪄 Mage Class (Versatility & Control)
 A skilled mage can maintain infinite mana, rewarding precision.
@@ -78,10 +83,37 @@ Can basically do everything but requires a lot of effort to collect them all.
 - Slow Start, Strongest Late Game: Requires investment in minions to reach full potential.
 - Some summons are Rideable for mobility.
 - Summons that can be upgraded by gearing them up such as armor or special attachment like booster and steel claws.
+
 ## Taming System:
+- Implement bleedout system for every enemy so that enemy at an amount value of hp(let’s say 1%) will get unconscious and will bleed until death unless healed. *Excessive healing make get them up and back into fight.*
+Also tamers' minions will avoid attacking entity in bleedout state.
 - Requires effort and following tasks to tame new creatures.
-- Failing to tame has consequences? (potential hostility, lost resources, etc.).
-- `Minion Customization:` Different minions provide unique abilities, allowing for tailored builds. 
+- `Minion Customization:` Different minions provide unique abilities, allowing for tailored builds. Also there may be cosmetics customization.
+- Familiar bond, by keep doing actions like taming to the familiar will grows the bond more and more granting both familiar and player some buffs or unlocking new moves for the familiar, player may choose
+
+### Familiar Personality System:
+Each familiar could have a unique personality
+trait that influences its behavior, interactions
+with the player, and the world around them.
+These traits can evolve as the bond between
+the player and the familiar strengthens,
+adding depth to the gameplay experience.
+
+`Example: Greed`
+A familiar with the "Greed" personality trait
+would have an insatiable desire for shiny
+objects, food, or valuable resources. It might
+"steal" items from the player or NPCs,
+triggering humorous or problematic
+interactions. NPCs might react with
+annoyance or amusement, and the familiar's
+actions could impact quests, such as
+requiring the player to retrieve stolen items
+or dealing with consequences like NPCs
+refusing to trade. The familiar could also get
+certain buffs when it successfully collects
+items, making it a valuable but mischievous
+companion.
 
 # 4. Companion & Utility Features
 ## Companion Drones
@@ -131,11 +163,11 @@ Pixel-art aesthetic with potential for enhanced lighting effects.
 Has not yet explored audio design.
 
 # 10. Development Plans
-Immediate Goals
-Refine inventory system (finalizing interactions).
-Crafting system with towns generation templates.
-World explorations with wildland templates.
-Long-Term Goals
+### Immediate Goals
+- Refine inventory system (finalizing interactions).
+- Crafting system with towns generation templates.
+- World explorations with wildland templates.
+### Long-Term Goals
 Develop multiplayer features once the core gameplay loop is complete.
 Potentially expand ocean edges for extra late-game content.
 Polish NPC generation & persistence system.
@@ -148,11 +180,30 @@ Sand-box content area.
 # 11. Extra ideas
 - Inventories idea: so in the way it saved is that in each towns there’s storage, and these storage are able to connect to inventory, thus saving items, so the items during the run will drop; ideas is that we might let player upgrades inventory slots that makes that slot not drop item, i can also give bigger stack size, etc
 
-- Progression guide built-in to the one of the ui’s hub page, showing list of things players could get, categorized, just like how wiki would be. Which are shown based on what’s available for the player currently based on area visited and resources in inventory.
+- Beastiary ui's hub page, a page where player can see the entire game's content. Which it will give player warning that it includes spoilers, use progression guide to avoid spoilers.
 
-- Crafting can be detailed like crafting blades at smithing shop and user have to actually learn to get good at it in it’s minigame, when they get good quality for good amount of times, the npc will level up in certain skill set, such as crafting perfect sword blades often will let npc learns to make better blades for all things like axes and knives too.
+- Progression guide built-in to the beastiary ui’s hub page, showing list of things players could get, categorized, just like how wiki would be. Which are shown based on what’s available for the player currently based on area visited and resources in inventory.
 
-- Crafting may include procedures of crafting each component of the item before putting them together.
++ > Killing a creature will unlocks its info in progression guide, which also will allow player to see their heath bar, this is important for tamer to know when to stop attacking avoiding killing it.
+
+## Crafting System Update:
+  Crafting will draw inspiration from *Minecraft-style speed crafting*, using custom irregular grids. The intended item’s outline will appear faintly on the grid as a reference.
+  Players use their `hotbar (1–9 bindable slots)` and can quickly swap materials between mouse and hotbar with keybinds. An additional 9 inventory slots are reserved for crafting materials.
+
+  Complex items require `sequential crafting` — players must first craft individual components from raw materials before assembling the final product.
+
+  The `quality result` depends on crafting speed, with each quality tier applying a multiplier to the item’s base stats.
+
+### Quality Tiers:
+
+  - Bad — ×0.75
+  - Normal — ×1.00
+  - Perfect — ×1.25
+  - Unreal — ×1.50
+
+*There may also be leaderboard for *
+
+*Crafting may include procedures of crafting each component of the item before putting them together.*
 
 ## Activities idea
 1.	Fishing 	
