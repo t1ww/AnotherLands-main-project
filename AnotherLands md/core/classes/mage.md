@@ -2,7 +2,7 @@
 
 ## 1. Direct Crafting to Wand
 
-* Spells are crafted **directly into the wand**, not as standalone inventory items.
+* Spells are crafted **directly into the wand**, not as standalone inventory items. This limits mass-production and encourages revisiting the crafting process each time.
 * Editing or removing a spell **returns half of the resources** used.
 
 ---
@@ -19,7 +19,6 @@
 ## 3. Resource Cost Scaling
 
 * Longer runic combinations = higher cost (rarer or more resources).
-* Limits mass-production and encourages revisiting the crafting process each time.
 
 ---
 
