@@ -10,7 +10,7 @@
 ## 2. Runic Language System
 
 * Spell recipes are **sequences of runes**.
-* **Lower-tier spells:** Any combination yields something, but weak.
+* **Lower-tier spells:** Short combinations (2-3) yields something, but weak.
 * **Higher-tier spells:** Longer, more precise sequences; trial-and-error becomes harder.
 * **Failed combinations** consume all resources but mark the sequence as invalid (prevents retrying).
 
