@@ -1,9 +1,10 @@
 ## The Shifters’ Belief
 
-A minority of wanderers, hermits, and cult remnants still speak of **“The Shifts”** —  
-they claim dimensional fractures never fully closed, only weakened.  
-To them, each strange mutation, spectral echo, or impossible creature is a sign of the rifts stirring again.  
+A minority of wanderers, hermits, and old cult remnants still speak of **“The Shifts”** —  
+they claim the dimensional fractures never fully closed, only weakened.  
+To them, each strange mutation, spectral echo, or twisted creature is a sign of the rifts stirring again.  
 
-While most scholars dismiss this as folklore or trauma echoing through generations,  
-some explorers and drifters swear they’ve seen the light bend wrong in the wilds —  
-as if reality itself still remembers where it tore.
+What they do not realize is that the breach was long ago sealed—quietly, by hands now forgotten.  
+But fear has deep roots.  
+Generations have grown under its shadow, and many townsfolk still refuse to travel beyond their walls,  
+convinced the outer lands whisper with things that should not exist.
