@@ -37,7 +37,7 @@ The game blends:
 
 ## 2. Gameplay Overview
 
-Players travel between **town hubs** and **unsafe exploration zones** in a looping progression system.
+Players travel between **town hubs** and **unsafe exploration zones** called **The Outerlands** in a looping progression system.
 Each town provides crafting stations, quests, and NPCs that evolve through interaction.
 
 **Core Features**
