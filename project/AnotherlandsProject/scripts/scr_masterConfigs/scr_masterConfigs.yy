@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_masterConfigs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_masterConfigs",
+  "parent":{
+    "name":"AnotherlandsProject",
+    "path":"AnotherlandsProject.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
