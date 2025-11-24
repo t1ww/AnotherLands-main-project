@@ -1,16 +1,22 @@
 # Project’s vision: Another Lands
 # Developer: t3ww
 
+This master notes are initial designs of the game, please refer to the **[markdown plans](<AnotherLands md/markdown_plans.md>)** for more in details and expanded ideas.
+
 # 1. Overview
-Another Lands is a 2D loot-based RPG set in a `post-dystopian` fantasy world where advanced technology is rare and limited to the wealthy. The majority of people rely on recycling scraps and adapting to survive. Magic exists *but* is largely overshadowed by technology due to it's unstability.
+    Another Lands is a 2D loot-based RPG set in a `post-dystopian` fantasy world where advanced technology is rare and limited to the wealthy. The majority of people rely on recycling scraps and adapting to survive. Magic exists *but* is largely overshadowed by technology due to it's unstability.
 
 The game combines elements of procedural generation, progression-based gameplay, and flexible class mechanics, drawing inspiration from games like Terraria, Roguelands, and Magicite.
 As well as having immersive mage’s spell tinkering inspired by Noita.
 
 # 2. World Design & Generation
-The world is structured as a fixed grid, with towns placed based on seeds and unsafe areas generated dynamically.
+    The world is structured as a fixed grid, with towns placed based on seeds and unsafe areas generated dynamically.
 
-Towns serve as hubs for storage, crafting, medical facilities, refineries, cooking, potion brewing, and shopping.
+<br>
+
+    Towns serve as hubs for storage, crafting, medical facilities, refineries, cooking, potion brewing, and shopping.
+
+<br>
 
 `Exploration zones (unsafe areas)` exist between towns and are randomly generated with each visit. Players can choose different difficulty levels for these zones.
 The left and right world edges are oceans, with possible future expansions.
@@ -92,44 +98,30 @@ Also tamers' minions will avoid attacking entity in bleedout state.
 - Familiar bond, by keep doing actions like taming to the familiar will grows the bond more and more granting both familiar and player some buffs or unlocking new moves for the familiar, player may choose
 
 ### Familiar Personality System:
-Each familiar could have a unique personality
-trait that influences its behavior, interactions
-with the player, and the world around them.
-These traits can evolve as the bond between
-the player and the familiar strengthens,
-adding depth to the gameplay experience.
+Each familiar could have a unique personality trait that influences its behavior, interactions with the player, and the world around them.
+These traits can evolve as the bond between the player and the familiar strengthens, adding depth to the gameplay experience.
 
 `Example: Greed`
-A familiar with the "Greed" personality trait
-would have an insatiable desire for shiny
-objects, food, or valuable resources. It might
-"steal" items from the player or NPCs,
-triggering humorous or problematic
-interactions. NPCs might react with
-annoyance or amusement, and the familiar's
-actions could impact quests, such as
-requiring the player to retrieve stolen items
-or dealing with consequences like NPCs
-refusing to trade. The familiar could also get
-certain buffs when it successfully collects
-items, making it a valuable but mischievous
+A familiar with the "Greed" personality trait would have an insatiable desire for shiny objects, food, or valuable resources. It might
+"steal" items from the player or NPCs, triggering humorous or problematic
+interactions. NPCs might react with annoyance or amusement, and the familiar's actions could impact quests, such as
+requiring the player to retrieve stolen items or dealing with consequences like NPCs refusing to trade. The familiar could also get certain buffs when it successfully collects items, making it a valuable but mischievous
 companion.
 
 # 4. Companion & Utility Features
 ## Companion Drones
-They are assistive drones that help with tedious tasks.
-These drones function similarly to Roguelands, providing utility and general assistants.
-The companion drone is initially dormant and only activates when the player equips the smart glove.
-
-Will be able to upgrade for more tasks for them to do, and possibly ability to assist in combat.
-Players will be able to unlock different models of them for cosmetics purposes.
+- They are assistive drones that help with tedious tasks.
+- These drones function similarly to Roguelands, providing utility and general assistants.
+- The companion drone is initially dormant and only activates when the player equips the smart glove.
+- Players will be able to upgrade for more tasks for them to do, and possibly ability to assist in combat.
+- Players will be able to unlock different models of them for cosmetics purposes.
 
 ### Drone Mechanic Overview:
 
-1.	`Initial Bonding Phase:` The player begins with a drone that adapts to their actions, learning and developing a unique personality based on player behavior. The drone offers personalized dialogue and reactions, creating a strong emotional connection.
-2.	`Switch Mechanic:` At a pivotal point in the story, players have the option to switch to a new, upgraded drone. This switch is tied to significant plot events, such as the original drone’s sacrifice or damage.
-3.	`Consequences of Switching:` While the new drone offers specialized abilities, it lacks the depth and personality of the original, leading to a sense of loss for players. The dialogue is more robotic and generic, emphasizing the trade-off between efficiency and emotional connection.
-4.	`Emotional Impact:` This mechanic encourages players to reflect on the value of companionship, highlighting themes of friendship, sacrifice, and the costs of progress. Players may experience nostalgia for their original drone, creating memorable storytelling moments.
+1. `Initial Bonding Phase:` The player begins with a drone that adapts to their actions, learning and developing a unique personality based on player behavior. The drone offers personalized dialogue and reactions, creating a strong emotional connection.
+2. `Switch Mechanic:` At a pivotal point in the story, players have the option to switch to a new, upgraded drone. This switch is tied to significant plot events, such as the original drone’s sacrifice or damage.
+3. `Consequences of Switching:` While the new drone offers specialized abilities, it lacks the depth and personality of the original, leading to a sense of loss for players. The dialogue is more robotic and generic, emphasizing the trade-off between efficiency and emotional connection.
+4. `Emotional Impact:` This mechanic encourages players to reflect on the value of companionship, highlighting themes of friendship, sacrifice, and the costs of progress. Players may experience nostalgia for their original drone, creating memorable storytelling moments.
 
 ## Smart Glove (thematic detail)
 `Acts as the player’s main UI hub:`
@@ -168,23 +160,25 @@ Has not yet explored audio design.
 - Crafting system with towns generation templates.
 - World explorations with wildland templates.
 ### Long-Term Goals
-Develop multiplayer features once the core gameplay loop is complete.
-Potentially expand ocean edges for extra late-game content.
-Polish NPC generation & persistence system.
-Expand town features & interactions.
-Optional Goals
-Make unforgettable beautiful scenery designs.
-Implement a quest system with well-written, rewarding content.
-Sand-box content area.
+- Develop multiplayer features once the core gameplay loop is complete.
+- Potentially expand ocean edges for extra late-game content.
+- Polish NPC generation & persistence system.
+- Expand town features & interactions.
+### Optional Goals
+- Make unforgettable beautiful scenery designs.
+- Implement a quest system with well-written, rewarding content.
+- Sand-box content area.
 
 # 11. Extra ideas
-- Inventories idea: so in the way it saved is that in each towns there’s storage, and these storage are able to connect to inventory, thus saving items, so the items during the run will drop; ideas is that we might let player upgrades inventory slots that makes that slot not drop item, i can also give bigger stack size, etc
 
-- Beastiary ui's hub page, a page where player can see the entire game's content. Which it will give player warning that it includes spoilers, use progression guide to avoid spoilers.
+## Inventory System Idea
 
-- Progression guide built-in to the beastiary ui’s hub page, showing list of things players could get, categorized, just like how wiki would be. Which are shown based on what’s available for the player currently based on area visited and resources in inventory.
-
-+ > Killing a creature will unlocks its info in progression guide, which also will allow player to see their heath bar, this is important for tamer to know when to stop attacking avoiding killing it.
+- Each town has storage units that connect directly to the player’s inventory, allowing items to be safely stored between runs.
+- Items carried during exploration runs may be dropped unless secured in storage.
+- Potential upgrades include:
+  - **Protected Slots:** Prevent certain inventory slots from dropping items.
+  - **Expanded Stack Sizes:** Increase the maximum quantity of items per slot.
+  - **Additional Inventory Slots:** Provide more room for collected items.
 
 ## Crafting System Update:
   Crafting will draw inspiration from *Minecraft-style speed crafting*, using custom irregular grids. The intended item’s outline will appear faintly on the grid as a reference.
@@ -201,7 +195,7 @@ Sand-box content area.
   - Perfect — ×1.25
   - Unreal — ×1.50
 
-*There may also be leaderboard for *
+*There may also be leaderboard for it*
 
 *Crafting may include procedures of crafting each component of the item before putting them together.*
 
@@ -305,3 +299,82 @@ Special event-only items that can be used to decorate the player's hub or improv
 `Special Equipment:` Winter-themed clothing or gear.
 
 `Achievements:` Unlockable achievements for participating in and winning various activities.
+
+---
+
+## Personal Library
+
+A hub where the player collects books, notes, and other informational items. It organizes content into categories for easy access, keeping the inventory uncluttered. The library also integrates progression-based tracking, giving players insight into what they’ve discovered and what remains unknown.
+
+**Key Features:**
+
+- **Content Collection:** Books, notes, scrolls, and other collectible documents.
+- **Categorization:** Automatically sorted into categories for easier navigation.
+- **Progression Tracking:** Unlocks entries as the player discovers creatures, recipes, or lore.
+- **Spoiler Awareness:** Warnings when showing content that hasn’t been discovered yet.
+- **Integration with Tamer Gameplay:** Reveals creature stats and health bars when unlocked, helping tamers avoid killing tamed or target creatures.
+
+--- 
+
+## Class Facilities
+Each town contains specialized facilities supporting each class path.
+These locations act as hubs for training, progression, and class-related activities.
+
+### Mage Tower (Mage)
+A tall arcane structure filled with scrolls, notes, and magical instruments.
+
+- Area for studying spells and runes
+- Space for controlled spell practice
+- Research-focused environment for arcane refinement
+
+### Mage’s Library (Mage)
+A quiet, knowledge-rich archive maintained by scholars, scribes, and retired mages.
+
+- Large collection of rune studies, spell theory, and arcane history
+- Contains grimoires, fragmented scrolls, and rare magical texts
+- A place to decode riddles, study gesture diagrams, and uncover hidden spell variants
+- Provides research bonuses when crafting spells in the Mage Tower
+- Some shelves require arcane clearance or puzzle-solving to access deeper secrets
+
+### Hunter Lodge (Ranger)
+A rustic lodge with an attached archery range and tracking grounds.
+
+- Area for preparing and maintaining ranged gear
+- Space for crafting specialized ammunition
+- Grounds for practicing accuracy and tracking
+
+### Combat Arena (Melee)
+A fortified yard built for physical training and sparring.
+
+- Space for practicing strikes, dodges, and parries
+- Equipment for strength and agility drills
+- Trials for advanced melee progression
+
+### Tamer’s Grounds (Tamer)
+A peaceful sanctuary dedicated to familiar care and bonding.
+
+- Area for resting, feeding, and nurturing familiars
+- Space for handling and obedience training
+- Facilities for advanced growth and evolution tasks
+
+---
+
+# Filler Towns
+Filler towns are small, functional stops designed to give players a brief respite between wildlands, without being full hubs. They provide essential services and minor interactions, keeping the game flow smooth.
+
+## Minimum Essentials
+
+- **Basic Healing:** An NPC, healing station, or safe bed. Not full recovery—just enough to continue exploring.
+- **Small Merchant:** Sells basic supplies such as potions, ammo, repair kits, and emergency food.
+- **Rest Zone:** Bed, bench, or safe area where buffs recover and debuffs wear off.
+- **Exit Gate:** Clear path to return to surrounding wildlands.
+
+## Optional Extras
+
+- **Random Event:** A traveling NPC offering a mini-game, gear repair, or small trade.
+- **Mini-Quest Giver:** Short side tasks like “Find my lost bag nearby” to add engagement.
+- **Environmental Flavor:** Decorative elements like campfires, tiny gardens, or broken buildings for atmosphere.
+
+## Summary
+
+Filler towns = heal a bit + stock a bit + continue. They act as tiny oases, keeping players moving without serving as a major hub.

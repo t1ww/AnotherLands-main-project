@@ -1,14 +1,12 @@
 # Travelling merchants
 ## The Three Wandering Merchants
-
-Legends speak of three mysterious merchants who roam the lands, appearing only when the time is right. Their presence is unpredictable, and their past remains a well-kept secret. The stories surrounding them vary—some say they were once heroes during the apocalypse, others believe they made a pact to compete against each other in business. Regardless of the truth, one thing is certain: they never acknowledge each other’s existence, refusing to speak about their past connections.
+    Legends speak of three mysterious merchants who roam the lands, appearing only when the time is right. Their presence is unpredictable, and their past remains a well-kept secret. The stories surrounding them vary—some say they were once heroes during the apocalypse, others believe they made a pact to compete against each other in business. Regardless of the truth, one thing is certain: they never acknowledge each other’s existence, refusing to speak about their past connections.
 
 Each of them has a distinct personality, approach, specialization, and unique appearance that sets them apart.
 
 ---
 
 ## 1st Merchant – The Trustable One
-
     (A reserved yet helpful merchant, practical and experienced. His wares are reliable and survival-focused.)
 
 `Personality:` 
@@ -32,7 +30,6 @@ Each of them has a distinct personality, approach, specialization, and unique ap
 ---
 
 ## 2nd Merchant – The Chaotic & Persuasive One
-
     (An energetic and reckless merchant who makes shopping an adventure. She sells unstable yet powerful items.)
 
 `Personality:`
@@ -56,7 +53,6 @@ Items with high risk and high reward—unstable, experimental, or volatile equip
 ---
 
 ## 3rd Merchant – The Serious & Quality-Focused One
-
     (A perfectionist who values precision and reliability. She sells only the highest-quality technology.)
 
 `Personality:`

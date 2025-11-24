@@ -66,55 +66,7 @@ Each town provides crafting stations, quests, and NPCs that evolve through inter
 ---
 
 ## 4. Repository Structure
-
-```
-AnotherLands-project
-│   README.md
-│   .gitattributes
-│
-└── AnotherLands md
-    ├── core/           → Player mechanics, classes, gameplay flow
-    │   ├── classes.md
-    │   ├── gameplay.md
-    │   ├── progression.md
-    │   └── classes/
-    │       ├── melee.md
-    │       ├── ranger.md
-    │       ├── mage.md
-    │       └── tamer.md
-    │
-    ├── system/         → Foundational systems (crafting, events, AI, economy)
-    │   ├── crafting.md
-    │   ├── drone_glove.md
-    │   ├── economy.md
-    │   ├── events.md
-    │   └── npcs.md
-    │
-    ├── world/          → Geography, generation, town and zone structure
-    │   ├── overview.md
-    │   ├── generation.md
-    │   ├── towns.md
-    │   └── unsafe_zones.md
-    │
-    ├── lore/           → World history, mythos, and technological background
-    │   ├── factions.md
-    │   ├── festival.md
-    │   ├── mythology.md
-    │   ├── technology.md
-    │   └── timeline.md
-    │
-    ├── content/        → Game content: loot, quests, activities, and enemies
-    │   ├── activities.md
-    │   ├── enemies.md
-    │   ├── loot_items.md
-    │   └── quests_events.md
-    │
-    └── designs/        → Active development space and documentation
-        ├── dev_diary.md
-        ├── sandbox.md
-        └── scrapped_ideas.md
-```
-
+- Check this **[markdown plans](<AnotherLands md/markdown_plans.md>)**
 ---
 
 ## 5. Development Philosophy

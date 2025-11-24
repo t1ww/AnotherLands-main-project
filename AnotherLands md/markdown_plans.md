@@ -1,6 +1,5 @@
 ## 🧭 How to Know Where an Idea Belongs
-
-When sorting new design ideas, use this table as a guide — it’s like a mental “router” for your notes.
+    When sorting new design ideas, use this table as a guide — it’s like a mental “router” for your notes.
 
 | **Type of Idea**               | **Ask Yourself**                                                         | **Where It Belongs**                                             |
 | ------------------------------ | ------------------------------------------------------------------------ | ---------------------------------------------------------------- |
@@ -48,8 +47,9 @@ AnotherLands-project
     │
     ├── system/
     │   ├── crafting.md
-    │   ├── economy.md
-    │   ├── drone_glove.md       # Smart glove hub + drone companion systems
+    │   ├── drone_companion.md      # Drone companion features
+    │   ├── economy.md              # Tradings in-game
+    │   ├── mittech_glove.md        # Smart glove hub
     │   ├── events.md
     │   └── npcs.md
     │

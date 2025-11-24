@@ -1,7 +1,6 @@
 # Wand — Spell Crafting (Default / Core Mechanic)
 
 ## 1. Direct Crafting to Wand
-
 - Spells are crafted **directly into the wand**, not as standalone inventory items.
   - This limits mass-production and encourages revisiting the crafting process each time.
 - Editing or removing a spell **returns half of the resources** used.
@@ -9,7 +8,6 @@
 ---
 
 ## 2. Runic Language System
-
 - Spell recipes are **sequences of runes**.
 - **Lower-tier spells:** Short combinations (2–3 runes) yield weaker but functional results.
 - **Higher-tier spells:** Longer, more precise sequences that require insight or references to discover.
@@ -18,14 +16,12 @@
 ---
 
 ## 3. Resource Cost Scaling
-
 - Longer or higher-tier combinations **cost exponentially more**, consuming additional rare components.
   - Cost scaling balances experimental crafting and high-tier discovery pacing.
 
 ---
 
 ## 4. Logical Rune Effects
-
 - Each rune holds **consistent elemental or conceptual meaning**.
   - Example logic patterns:
     - `Ign-Tel-Sol` → Fire Wall
@@ -38,7 +34,6 @@
 ---
 
 ## 5. Hints & Discovery (Grimoire System)
-
 - Higher-level spells cannot be discovered through pure trial and error.
   - Players must **interpret riddles, fragmented scrolls, and grimoires** scattered across the world.
 
@@ -52,7 +47,6 @@
 ---
 
 ## 6. Partial Randomization System
-
 - Each world introduces **a unique variation of rune logic**, preventing players from relying on prior runs.
   - The system subtly alters rune interactions or crafting logic.
   - Feels like a *multiverse* effect — familiar but never identical.
@@ -69,7 +63,6 @@
 ---
 
 ## 7. Mana Control & Gesture Efficiency
-
 - Players can **cast spells normally** for consistent results.
 - Skilled players may **enhance their casting through gestures or mouse movements**.
   - Proper gestures can:
@@ -86,7 +79,6 @@
 # Tome — Casting (Alternative / Advanced Mechanic)
 
 ## 1. Page-Based Casting
-
 - The player wields a **tome** that contains multiple pages, each bound to a spell.
   - Switching pages changes the active spell for casting.
 
@@ -95,7 +87,6 @@
 ---
 
 ## 2. Alternative Casting Options
-
 - **Gesture / Motion-Based:**
   - Drag or trace across tome pages to “draw” runes.
 
@@ -108,7 +99,6 @@
 ---
 
 ## 3. Intent
-
 - Keeps casting **ritualistic, deliberate, and expressive**, not automated.
 - Provides a **skill-based alternative** for players seeking deeper engagement.
 - Complements the wand system, creating a **dual mastery loop**:
