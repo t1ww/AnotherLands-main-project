@@ -1,3 +1,6 @@
+## 🚨 REGEX TO REPLACE `*` with `-`
+    (?<!\*)\*(?!\*) 
+
 ## 🧭 How to Know Where an Idea Belongs
     When sorting new design ideas, use this table as a guide — it’s like a mental “router” for your notes.
 

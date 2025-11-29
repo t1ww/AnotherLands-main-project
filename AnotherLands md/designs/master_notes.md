@@ -1,7 +1,7 @@
-# Project’s vision: Another Lands
+# Project’s vision: Another Lands (Outdated)
 # Developer: t3ww
 
-This master notes are initial designs of the game, please refer to the **[markdown plans](<AnotherLands md/markdown_plans.md>)** for more in details and expanded ideas.
+This master notes are initial designs of the game, please refer to the **[markdown plans](<../markdown_plans.md>)** and other files for more in-details and expanded ideas.
 
 # 1. Overview
     Another Lands is a 2D loot-based RPG set in a `post-dystopian` fantasy world where advanced technology is rare and limited to the wealthy. The majority of people rely on recycling scraps and adapting to survive. Magic exists *but* is largely overshadowed by technology due to it's unstability.
