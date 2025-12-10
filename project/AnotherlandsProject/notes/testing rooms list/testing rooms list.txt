@@ -1,0 +1,7 @@
+/// Testing rooms list ///
+
+- platform test (testing_room for anything)
+- town test (npc, crafting, chests)
+- resource deposit test (gathering)
+- enemy test (combat)
+- world generation and random seed test 

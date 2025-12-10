@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"debugOverlayExtended",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"debugOverlayExtended",
+  "parent":{
+    "name":"debug_overlay",
+    "path":"folders/src/Main/Utility/debug_overlay.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

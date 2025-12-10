@@ -1,0 +1,14 @@
+
+___________________________________________
+############################################################################################
+ERROR in action number 1
+of Draw Event for object obj_player_character:
+array_get :: Index [2] out of range [1]
+ at gml_Script_array_color_normalized (line 12) -        var _new_array = [array_length(_a)][array_length(_a)];
+############################################################################################
+gml_Script_array_color_normalized (line 12)
+gml_Script_shader_set_replace_colors (line 29) -        var _norm_array = array_color_normalized(_color_array);
+gml_Script_anon@10238@anon@9876@gml_Object_obj_player_character_Create_0 (line 417) -             shader_set_replace_colors(_color_array);
+gml_Script_anon@11737@anon@11688@gml_Object_obj_player_character_Create_0 (line 439) -         _e.draw();
+gml_Script_anon@11688@gml_Object_obj_player_character_Create_0 (line 438)
+gml_Object_obj_player_character_Draw_0 (line 5) -        draw_bodyparts();       

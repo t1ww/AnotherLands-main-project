@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_slot_highlight",
+  "name":"shd_slot_highlight",
+  "parent":{
+    "name":"Shader",
+    "path":"folders/src/Shader.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

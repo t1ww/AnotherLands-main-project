@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"OFL",
+  "name":"OFL",
+  "parent":{
+    "name":"pressStart2p",
+    "path":"folders/Data/GameConfig/fonts/pressStart2p.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
