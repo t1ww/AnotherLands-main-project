@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Main",
-    "path":"folders/Main.yy",
+    "path":"folders/src/Main.yy",
   },
   "parentObjectId":null,
   "persistent":false,

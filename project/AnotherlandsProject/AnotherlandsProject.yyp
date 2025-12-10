@@ -17,8 +17,12 @@
     {"$GMFolder":"","%Name":"GameConfig","folderPath":"folders/Data/GameConfig.yy","name":"GameConfig","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"PlayerData","folderPath":"folders/Data/PlayerData.yy","name":"PlayerData","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"SaveData","folderPath":"folders/Data/SaveData.yy","name":"SaveData","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Main","folderPath":"folders/Main.yy","name":"Main","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"src","folderPath":"folders/src.yy","name":"src","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Npc","folderPath":"folders/src/Npc.yy","name":"Npc","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Main","folderPath":"folders/src/Main.yy","name":"Main","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Player","folderPath":"folders/src/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"WorldGeneration","folderPath":"folders/src/WorldGeneration.yy","name":"WorldGeneration","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Systems","folderPath":"folders/Systems.yy","name":"Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"characters","folderPath":"folders/Systems/characters.yy","name":"characters","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"worlds","folderPath":"folders/Systems/worlds.yy","name":"worlds","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -29,7 +33,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"AnotherlandsProject",
   "resources":[
