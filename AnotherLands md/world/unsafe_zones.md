@@ -77,3 +77,56 @@ Unsafe Zones are the core of Another Lands’ **exploration and progression loop
 - Encourage strategic decision-making for travel and combat
 
 The design ensures that the wildlands are **challenging, engaging, and replayable**, giving players freedom to explore while testing their mastery of the game’s systems.
+
+
+# ⚖️ Risk Escalation & Run Commitment
+
+Unsafe Zones reward players who push forward without returning to town. Each completed unsafe zone without saving increases the tension of the run, amplifying both danger and opportunity.
+
+Run Commitment
+	•	When a player leaves a town, their inventory state is locked and preserved.
+	•	Items found in unsafe zones exist only for the duration of the run.
+	•	Dying during exploration causes the player to lose only the items gathered in the wildlands, not the equipment or resources secured in town.
+
+This ensures failure results in lost time and opportunity, not permanent progress loss.
+
+Escalating Risk
+
+As players continue through unsafe zones without saving:
+	•	Enemy behavior becomes more aggressive and complex.
+	•	Environmental hazards appear more frequently or with stronger effects.
+	•	Door outcomes trend toward higher-tier zones with fewer safe exits.
+
+The world subtly adapts to the player’s growing confidence.
+
+Escalating Rewards
+
+At the same time, prolonged runs increase potential rewards:
+	•	Improved loot quality and rarity.
+	•	Access to drop pools unavailable in short or safe runs.
+	•	Increased chance for rare events, hidden encounters, or unusual zone modifiers.
+
+Some items and encounters can only appear after extended exploration without saving.
+
+Strategic Town Choice
+
+Towns are not mandatory checkpoints but strategic reset points.
+	•	Entering a town allows players to secure loot, recover fully, and reset run tension.
+	•	Continuing past a town preserves escalating rewards but increases the risk of losing everything gained since departure.
+
+Players must decide when to stop safely and when to press their luck.
+
+⸻
+
+Design Intent
+
+This system encourages:
+	•	Greed vs. caution decision-making
+	•	Memorable high-risk runs
+	•	Natural difficulty scaling driven by player choice
+	•	Reduced frustration from death while preserving meaningful stakes
+
+Unsafe Zones are not just paths between towns — they are where players define their own limits.
+
+⸻
+
