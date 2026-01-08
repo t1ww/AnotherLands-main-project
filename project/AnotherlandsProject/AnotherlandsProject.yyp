@@ -74,13 +74,13 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"AnotherlandsProject",
   "resources":[
     {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
-    {"id":{"name":"Note3","path":"notes/Note3/Note3.yy",},},
     {"id":{"name":"OFL","path":"notes/OFL/OFL.yy",},},
+    {"id":{"name":"temp_notes","path":"notes/temp_notes/temp_notes.yy",},},
     {"id":{"name":"testing rooms list","path":"notes/testing rooms list/testing rooms list.yy",},},
     {"id":{"name":"cont_camera","path":"objects/cont_camera/cont_camera.yy",},},
     {"id":{"name":"cont_game","path":"objects/cont_game/cont_game.yy",},},

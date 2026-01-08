@@ -1,39 +1,49 @@
 #macro TITLE "Title 2"
 
 // user created scripted
-#region /// MACROS
+#region /// Constants
 	// null
-	#macro null pointer_null
+	#macro null undefined
 	
-	// resolution
-	#macro SCREEN_WIDTH 640
-	#macro SCREEN_HEIGHT 360
+    // ==================================
+    // GAME RESOLUTION (logical size)
+    // ==================================
+    #macro GAME_WIDTH  640
+    #macro GAME_HEIGHT 360
+    
+    // ==================================
+    // WINDOW / SCREEN SIZE (output size)
+    // ==================================
+    #macro WINDOW_WIDTH  1280
+    #macro WINDOW_HEIGHT 720
 
-	// directions
+	// Directions
 	#macro RIGHT 1
 	#macro LEFT -1
 
-	// mouse to gui
+	// Mouse coords to gui
 	#macro mouse_x_gui device_mouse_x_to_gui(0)
 	#macro mouse_y_gui device_mouse_y_to_gui(0)
+#endregion
 
-	/// config MARCROS
-		#macro START_ROOM rm_start
-		#macro ADMIN false
-		#macro TESTING false
-		#macro DEVELOPMENT false
-		
-		// dev mode
-		#macro Development:START_ROOM rm_start
-		#macro Development:TESTING true
-		#macro Development:DEVELOPMENT true
-		
-		// release
-		#macro Release:START_ROOM rm_main_menu
-		#macro Release:DEVELOPMENT false
-		
-		// release (skip)
-		// { nothing atm }
+#region /// Config
+    // Initializations
+    #macro START_ROOM rm_start
+    #macro ADMIN false
+    #macro TESTING false
+    #macro DEVELOPMENT false
+    
+    // DEV mode
+    #macro Development:START_ROOM rm_start
+    #macro Development:TESTING true
+    #macro Development:DEVELOPMENT true
+    
+    // Release mode
+    #macro Release:START_ROOM rm_mainMenu
+    #macro Release:DEVELOPMENT false
+    
+    // Release mode (Skip tutorial)
+    // { nothing atm }
 #endregion
 
 #region /// MISC SCRIPTS
@@ -69,7 +79,7 @@
 	}
 	
 	// Allows you to swiftly set all of the attributes in one go
-	function draw_set_all(_font = fnt_def, _halign = fa_center, _valign = fa_middle, 
+	function draw_set_all(_font = fnt_default, _halign = fa_center, _valign = fa_middle, 
 							_color = c_white, _alpha = 1){
 		// set all font attributes ( skipped gets default )
 		draw_set_font(_font);

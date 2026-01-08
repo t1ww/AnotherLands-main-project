@@ -1,0 +1,11 @@
+# Usually for error
+___________________________________________
+
+___________________________________________
+############################################################################################
+ERROR in action number 1
+of  Step Event0 for object p_decor:
+Variable obj_bg_grass.SCREEN_HEIGHT(100352, -2147483648) not set before reading it.
+ at gml_Object_p_decor_Step_0 (line 4) - y = start_y + (cont_camera.y * (.00009 * depth) - (SCREEN_HEIGHT*.1));
+############################################################################################
+gml_Object_p_decor_Step_0 (line 4)
