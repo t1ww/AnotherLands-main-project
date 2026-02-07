@@ -14,6 +14,17 @@ enum WORLD_SIZE {
 	small, medium, large, extra_large
 }
 
+function get_world_size(_size) {
+    var _base_size = 11;
+    var WORLD_SIZE_VALUES = [0, 4, 8, 12];
+
+    if (_size < 0 || _size >= array_length(WORLD_SIZE_VALUES)) {
+        return -1;
+    }
+
+    return _base_size + WORLD_SIZE_VALUES[_size];
+}
+
 /// WORLD SETUP
 // biome tier
 global.biomes_amount = 2;
@@ -65,32 +76,6 @@ function room_get_another_land(_tier, _direction){
 	}
 }
 
-function get_world_size(_size) {
-	// set default
-	var _smallest_size = 11;
-	//
-	switch(_size){	
-		case WORLD_SIZE.small :
-			return _smallest_size;
-			break;
-			
-		case WORLD_SIZE.medium : 
-			return _smallest_size + 4;
-			break;
-			
-		case WORLD_SIZE.large : 
-			return _smallest_size + 8;
-			break;
-			
-		case WORLD_SIZE.extra_large : 
-			return _smallest_size + 12;
-			break;
-		default :
-			return -1;
-			break;
-			
-	}
-}
 // // GENERATE WORLD // //
 WORLD.generate = function(_size, _seed = irandom(9999999)) {
 // seed 

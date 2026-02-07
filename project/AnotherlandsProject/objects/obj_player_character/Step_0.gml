@@ -3,7 +3,4 @@
 /// state
 state.step();
 animation_state.step();
-
-if(eyes.visible != eyes_is_open) {
-	eyes.visible = eyes_is_open;
-}
+eyes.visible = player_eyes.is_open;

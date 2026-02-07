@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"Icons",
-    "path":"folders/Assets/Sprites/Icons.yy",
+    "path":"folders/Assets/Icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Assets","folderPath":"folders/Assets.yy","name":"Assets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Icons","folderPath":"folders/Assets/Icons.yy","name":"Icons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"SceneBuilders","folderPath":"folders/Assets/SceneBuilders.yy","name":"SceneBuilders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"decors","folderPath":"folders/Assets/SceneBuilders/decors.yy","name":"decors","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"global","folderPath":"folders/Assets/SceneBuilders/global.yy","name":"global","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -26,7 +27,6 @@
     {"$GMFolder":"","%Name":"front_arms","folderPath":"folders/Assets/Sprites/Entities/PlayerCharacter/parts/front_arms.yy","name":"front_arms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"hairs","folderPath":"folders/Assets/Sprites/Entities/PlayerCharacter/parts/hairs.yy","name":"hairs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"legs","folderPath":"folders/Assets/Sprites/Entities/PlayerCharacter/parts/legs.yy","name":"legs","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Icons","folderPath":"folders/Assets/Sprites/Icons.yy","name":"Icons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Placeholders","folderPath":"folders/Assets/Sprites/Placeholders.yy","name":"Placeholders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"visuals","folderPath":"folders/Assets/Sprites/visuals.yy","name":"visuals","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"forest","folderPath":"folders/Assets/Sprites/visuals/forest.yy","name":"forest","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -84,6 +84,7 @@
     {"id":{"name":"OFL","path":"notes/OFL/OFL.yy",},},
     {"id":{"name":"temp_notes","path":"notes/temp_notes/temp_notes.yy",},},
     {"id":{"name":"testing rooms list","path":"notes/testing rooms list/testing rooms list.yy",},},
+    {"id":{"name":"cmp_eyes_blinking","path":"objects/cmp_eyes_blinking/cmp_eyes_blinking.yy",},},
     {"id":{"name":"cmp_player_input","path":"objects/cmp_player_input/cmp_player_input.yy",},},
     {"id":{"name":"cont_camera","path":"objects/cont_camera/cont_camera.yy",},},
     {"id":{"name":"cont_game","path":"objects/cont_game/cont_game.yy",},},

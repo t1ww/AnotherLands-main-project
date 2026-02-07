@@ -1,7 +1,7 @@
 /// @description > playable character create event
 // > Imports
     player_input = import(cmp_player_input);
-
+    player_eyes = import(cmp_eyes_blinking);
 // > code here
 // Set player 1 unit closer to the screen
 depth -= 1;
@@ -72,20 +72,6 @@ depth -= 1;
 			test1 = 0;
 	}	
 #endregion 
-
-// eyes blinking
-eyes_is_open = true;
-eyes_blink_frequency = .7; // second
-ts_start_blink = time_source_create(time_source_game, eyes_blink_frequency, time_source_units_seconds, function() {
-	eyes_is_open = false;
-	time_source_start(ts_stop_blink);
-});
-ts_stop_blink = time_source_create(time_source_game, (eyes_blink_frequency*.25), time_source_units_seconds, function() {
-	eyes_is_open = true;
-	time_source_start(ts_start_blink);
-});
-time_source_start(ts_start_blink);
-
 
 /// player functions
 	// MOVEMENTS
