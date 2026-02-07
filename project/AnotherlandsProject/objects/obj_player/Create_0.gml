@@ -1,6 +1,6 @@
 /// @description > player create
 // > Imports
-    player_scripts = global.player_scripts;
+    player_scripts = global.import.player_scripts;
 // > code here
 	
 	var _self = self;
@@ -38,7 +38,7 @@
 	}
 		
     // Inputs
-    player_scripts.initialize.inputs();
+    player_scripts.inputs.init(self);
 	
 	
 #region // DEBUG OVERLAY

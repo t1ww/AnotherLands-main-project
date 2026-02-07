@@ -1,9 +1,7 @@
 // Player object
 function _player_scripts_build() {
-    global.player_scripts = {
-        initialize: {
-            inputs: _scr_player_inputs,
-        }
+    global.import.player_scripts = {
+        inputs: _scr_player_inputs()
     };
 }
 
