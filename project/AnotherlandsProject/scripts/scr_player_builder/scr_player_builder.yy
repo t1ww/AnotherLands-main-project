@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_player_builder",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_player_builder",
+  "parent":{
+    "name":"controller",
+    "path":"folders/src/Main/Player/controller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

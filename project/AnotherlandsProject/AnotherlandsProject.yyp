@@ -74,7 +74,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"AnotherlandsProject",
   "resources":[
@@ -126,7 +126,11 @@
     {"id":{"name":"scr_eventListener","path":"scripts/scr_eventListener/scr_eventListener.yy",},},
     {"id":{"name":"scr_globalData","path":"scripts/scr_globalData/scr_globalData.yy",},},
     {"id":{"name":"scr_masterConfigs","path":"scripts/scr_masterConfigs/scr_masterConfigs.yy",},},
+    {"id":{"name":"scr_ooppatterns","path":"scripts/scr_ooppatterns/scr_ooppatterns.yy",},},
     {"id":{"name":"scr_others","path":"scripts/scr_others/scr_others.yy",},},
+    {"id":{"name":"scr_player_builder","path":"scripts/scr_player_builder/scr_player_builder.yy",},},
+    {"id":{"name":"scr_player_input","path":"scripts/scr_player_input/scr_player_input.yy",},},
+    {"id":{"name":"scr_scripts_builder","path":"scripts/scr_scripts_builder/scr_scripts_builder.yy",},},
     {"id":{"name":"scr_stateMachine","path":"scripts/scr_stateMachine/scr_stateMachine.yy",},},
     {"id":{"name":"scr_wordGeneration","path":"scripts/scr_wordGeneration/scr_wordGeneration.yy",},},
     {"id":{"name":"shader_set_replace_color","path":"scripts/shader_set_replace_color/shader_set_replace_color.yy",},},

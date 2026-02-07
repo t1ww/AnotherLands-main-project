@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_ooppatterns",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_ooppatterns",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/src/Main/Utility/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

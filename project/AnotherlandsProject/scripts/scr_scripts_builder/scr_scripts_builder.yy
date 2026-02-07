@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_scripts_builder",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_scripts_builder",
+  "parent":{
+    "name":"Utility",
+    "path":"folders/src/Main/Utility.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
