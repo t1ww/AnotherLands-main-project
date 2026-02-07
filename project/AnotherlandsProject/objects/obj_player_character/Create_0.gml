@@ -1,8 +1,12 @@
 /// @description > playable character create event
-// set player forward
+// > Imports
+    player_input = import(cmp_player_input);
+
+// > code here
+// Set player 1 unit closer to the screen
 depth -= 1;
 
-/// variable initialization
+/// Variable initialization
 #region /// public
 	// variable
 	name = "player";
@@ -87,9 +91,9 @@ time_source_start(ts_start_blink);
 	// MOVEMENTS
 	movement = function() {
 		// INPUT CHECK
-		var _h_input = parent.get_input_h();
-		var _v_input = parent.get_input_v();
-		var _sprint_input = parent.get_input_sprint();
+		var _h_input = player_input.get_h();
+		var _v_input = player_input.get_v();
+		var _sprint_input = player_input.get_sprint();
 		// HORIZONTAL CONTROLS
             if (_h_input != 0) {
                 // increasing speed
@@ -194,7 +198,7 @@ time_source_start(ts_start_blink);
 	/// HANDLES
 	// dashing
 		handle_dash = function() {
-			var _dash = parent.get_input_dash();
+			var _dash = player_input.get_dash();
 			if (_dash and __.can_dash) {
 				state.set_state(state.dash);
 			}	
@@ -291,7 +295,7 @@ time_source_start(ts_start_blink);
 			if (h_speed != 0) {
 				set_facing_direction(sign(h_speed));	
 			}
-			if (!parent.get_input_sprint().check) {
+			if (!player_input.get_sprint().check) {
 				// walk
 				animation_state.set_state(animation_state.walk);
 			} else {

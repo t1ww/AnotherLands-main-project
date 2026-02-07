@@ -1,6 +1,7 @@
-/// @description > player create
+/// @description > obj_player create
 // > Imports
-    player_scripts = global.import.player_scripts;
+    player_input = import(cmp_player_input);
+
 // > code here
 	
 	var _self = self;
@@ -36,15 +37,16 @@
 		}
 		return self;
 	}
-		
-    // Inputs
-    player_scripts.inputs.init(self);
-	
 	
 #region // DEBUG OVERLAY
 	dbg_section("player value section");
 	DBG_OVERLAY.add_variable(self.__,"input_h");
 	DBG_OVERLAY.add_variable(self.__,"input_v");
+
+    update_debug_overlay = function() { 
+        __.input_h = player_input.get_h();
+        __.input_v = player_input.get_v();
+    }
 #endregion
 	
 // CREATE CALLBACK

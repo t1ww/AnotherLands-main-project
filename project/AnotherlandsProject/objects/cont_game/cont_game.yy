@@ -13,8 +13,8 @@
   "name":"cont_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"global",
-    "path":"folders/src/Main/controllers/global.yy",
+    "name":"Main",
+    "path":"folders/src/Main.yy",
   },
   "parentObjectId":null,
   "persistent":true,

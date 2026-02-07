@@ -64,9 +64,6 @@
 	}
 	
 /// GAME START UP SCRIPTS ///
-// Build global scripts
-    _scr_scripts_builder();
-
 // Set draw
 	draw_set_default();
 

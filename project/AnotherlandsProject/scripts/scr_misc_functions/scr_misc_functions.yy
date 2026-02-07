@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_player_builder",
+  "%Name":"scr_misc_functions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_player_builder",
+  "name":"scr_misc_functions",
   "parent":{
-    "name":"controller",
-    "path":"folders/src/Main/Player/controller.yy",
+    "name":"Main",
+    "path":"folders/src/Main.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

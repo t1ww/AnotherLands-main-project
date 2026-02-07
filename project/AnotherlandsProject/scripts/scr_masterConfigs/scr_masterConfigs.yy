@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_masterConfigs",
   "parent":{
-    "name":"AnotherlandsProject",
-    "path":"AnotherlandsProject.yyp",
+    "name":"Main",
+    "path":"folders/src/Main.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
