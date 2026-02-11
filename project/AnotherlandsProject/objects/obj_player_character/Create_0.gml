@@ -1,7 +1,7 @@
 /// @description > playable character create event
 // > Imports
-    player_input = import(cmp_player_input);
-    player_eyes = import(cmp_eyes_blinking);
+    import(cmp_player_input);
+    import(cmp_eyes_blinking);
 // > code here
 // Set player 1 unit closer to the screen
 depth -= 1;
@@ -77,9 +77,9 @@ depth -= 1;
 	// MOVEMENTS
 	movement = function() {
 		// INPUT CHECK
-		var _h_input = player_input.get_h();
-		var _v_input = player_input.get_v();
-		var _sprint_input = player_input.get_sprint();
+		var _h_input = cmp_player_input.get_h();
+		var _v_input = cmp_player_input.get_v();
+		var _sprint_input = cmp_player_input.get_sprint();
 		// HORIZONTAL CONTROLS
             if (_h_input != 0) {
                 // increasing speed
@@ -184,7 +184,7 @@ depth -= 1;
 	/// HANDLES
 	// dashing
 		handle_dash = function() {
-			var _dash = player_input.get_dash();
+			var _dash = cmp_player_input.get_dash();
 			if (_dash and __.can_dash) {
 				state.set_state(state.dash);
 			}	
@@ -220,9 +220,9 @@ depth -= 1;
 		.set_step(function() {
 			animation_wrap(0, 5);
 		});
-		animation_state.walk = new animation_state.state_create()
-			.set_name("animation walk")
-		.set_step(function() {
+    animation_state.walk = new animation_state.state_create()
+        .set_name("animation walk")
+        .set_step(function() {
 			animation_wrap(6, 13);
 		});
 	animation_state.run = new animation_state.state_create()
@@ -261,17 +261,15 @@ depth -= 1;
 		.set_start( function() {
 			// start
 			set_sprite(spr_player);
-			// notify
-			show_debug_message("entering state idle");
 		} )
 		.set_stop ( function() {
-			show_debug_message("leaving state idle");	
+            // stop
 		} );
 	
 /// STATE FREE
 	state.free = new state.state_create()
 		.set_name ("state free")
-		.set_step ( function() {
+		.set_step (function() {
 			// if not moving, state idle
 			if (!movement()) {
 				state.set_state(state.idle);
@@ -281,7 +279,7 @@ depth -= 1;
 			if (h_speed != 0) {
 				set_facing_direction(sign(h_speed));	
 			}
-			if (!player_input.get_sprint().check) {
+			if (!cmp_player_input.get_sprint().check) {
 				// walk
 				animation_state.set_state(animation_state.walk);
 			} else {
@@ -289,20 +287,18 @@ depth -= 1;
 				animation_state.set_state(animation_state.run);
 			}
 		} )
-		.set_start( function() {
+		.set_start(function() {
 			// start
 			set_sprite(spr_player);
-			// notify
-			show_debug_message("entering state free");
 		} )
-		.set_stop ( function() {
-			show_debug_message("leaving state free");	
+		.set_stop (function() {
+            // stop
 		} );
 	
 /// STATE JUMP
 	state.mid_air = new state.state_create()
 		.set_name ("state mid air")
-		.set_step ( function() {
+		.set_step (function() {
 			// controls	
 			movement();
 			handle_dash();
@@ -320,23 +316,19 @@ depth -= 1;
 				animation_state.set_state(animation_state.falling_down);
 			}
 		} )
-		.set_start( function() {
+		.set_start(function() {
 			// start
 			set_sprite(spr_player);
-			// notify
-			show_debug_message("entering state mid air");
 		} )
-		.set_stop ( function() {
+		.set_stop (function() {
 			// stop
 			jump_count = 0;  // reset jumps
-			// notify
-			show_debug_message("leaving state mid air");
 		} );
 		
 /// STATE DASH 
 	state.dash = new state.state_create()
 		.set_name ("state dash")
-		.set_step ( function() {
+		.set_step (function() {
 			// create trail
 			var _inst = cont_game.create_entity(x,y,obj_trail);
 			_inst.set_sprite(self.sprite_index);
@@ -355,18 +347,16 @@ depth -= 1;
 				time_source_start(_ts_reset_dash);
 			}
 		} )
-		.set_start( function() {
+		.set_start(function() {
 			// start
 			__.dash_dir = sign(mouse_x - x) * 1;
 			__.dash_speed = 30;
 			__.dash_length = 16; // frames
 			__.can_dash = false;
 			set_facing_direction(__.dash_dir);
-			// notify
-			show_debug_message("entering state dash");
 		} )
-		.set_stop ( function() {
-			show_debug_message("leaving state dash");
+		.set_stop(function() {
+            // stop
 		} );
 		
 /// STATE DYING

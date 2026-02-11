@@ -3,4 +3,4 @@
 /// state
 state.step();
 animation_state.step();
-eyes.visible = player_eyes.is_open;
+eyes.visible = cmp_eyes_blinking.is_open;

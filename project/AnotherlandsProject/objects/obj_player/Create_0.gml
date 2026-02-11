@@ -1,6 +1,6 @@
 /// @description > obj_player create
 // > Imports
-    player_input = import(cmp_player_input);
+    import(cmp_player_input);
 
 // > code here
 	
@@ -44,8 +44,8 @@
 	DBG_OVERLAY.add_variable(self.__,"input_v");
 
     update_debug_overlay = function() { 
-        __.input_h = player_input.get_h();
-        __.input_v = player_input.get_v();
+        __.input_h = cmp_player_input.get_h();
+        __.input_v = cmp_player_input.get_v();
     }
 #endregion
 	
