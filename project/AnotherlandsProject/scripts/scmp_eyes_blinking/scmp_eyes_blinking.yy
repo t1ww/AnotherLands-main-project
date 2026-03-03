@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scmp_eyes_blinking",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scmp_eyes_blinking",
+  "parent":{
+    "name":"components",
+    "path":"folders/src/Main/Player/character/components.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

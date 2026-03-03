@@ -127,6 +127,7 @@
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"rm_starter_town_01","path":"rooms/rm_starter_town_01/rm_starter_town_01.yy",},},
     {"id":{"name":"debugOverlayExtended","path":"scripts/debugOverlayExtended/debugOverlayExtended.yy",},},
+    {"id":{"name":"scmp_eyes_blinking","path":"scripts/scmp_eyes_blinking/scmp_eyes_blinking.yy",},},
     {"id":{"name":"scr_components_builder","path":"scripts/scr_components_builder/scr_components_builder.yy",},},
     {"id":{"name":"scr_eventListener","path":"scripts/scr_eventListener/scr_eventListener.yy",},},
     {"id":{"name":"scr_globalData","path":"scripts/scr_globalData/scr_globalData.yy",},},
