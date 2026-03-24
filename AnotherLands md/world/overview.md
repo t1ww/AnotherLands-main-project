@@ -1,4 +1,5 @@
-# 🌏 Overview of the world
+# 🌏 Overview of the World
+
 ## **1. What the World Is**
 
 AnotherLands takes place in a **post-collapse, dystopian fantasy world** where:
@@ -6,9 +7,11 @@ AnotherLands takes place in a **post-collapse, dystopian fantasy world** where:
 - Technology exists but is fragmented and barely understood.
 - Magic exists but is unreliable, inconsistent, or partially lost.
 - Most civilizations have retreated into isolated **Towns**, protected by ancient barriers or local forces.
-- Everything outside those safe places is considered the **Unsafe Zone** — constantly shifting, hostile, and unpredictable.
+- Everything outside those safe places is considered the **Unsafe Zone** — vast, hostile, and unexplored.
 
 The result is a world that feels **half-rebuilt, half-ruined**, with remnants of old tech (MitTech systems, forgotten drones, incomplete machines) scattered alongside magical anomalies and mutated wildlife.
+
+At the center of it all, a powerful corporation quietly controls the world's economy — manufacturing and selling the only widely-used technology most people have ever known.
 
 ---
 
@@ -18,10 +21,10 @@ The world is built from two major components:
 
 ### **Towns (Safe Areas)**
 
-- Fixed by seed; layout doesn’t refresh between runs.
+- Fixed by seed; layout doesn't refresh between runs.
 - Each town has shops, crafting facilities, storage, and unique NPC clusters.
 - Towns act as checkpoints, hubs, and rest areas.
-- Towns are placed far apart, giving a rhythm of -safe → dangerous → safe again- gameplay.
+- Towns are placed far apart, giving a rhythm of safe → dangerous → safe again gameplay.
 
 ### **Unsafe Zones (Danger Areas)**
 
@@ -32,16 +35,12 @@ The world is built from two major components:
 This creates the core gameplay cycle:
 **Town → Unsafe Zone → Return to Town → Upgrade → Repeat**
 
-Here’s a clean way to integrate **world grid sizes** directly into your *World Overview*, placed in the correct section (#2 World Structure) without breaking tone or flow.
-
-You can paste this entire block under **2. World Structure**, right after “The world is built from two major components:” or at the end of that section.
-
 ---
 
-## 🌐 **World Grid Size** *(add under Section 2)*
+## 🌐 **World Grid Size**
 
 Although players experience the world organically, the underlying structure is built on a **linear world grid**.
-Each “cell” in the grid represents one **Town** interval.
+Each "cell" in the grid represents one **Town** interval.
 
 World sizes define how many towns exist in the generation:
 
@@ -52,8 +51,8 @@ World sizes define how many towns exist in the generation:
 | **Large**       | 17                | Long-distance expeditions, more biomes        |
 | **Extra Large** | 21                | Massive world, ideal for long-term characters |
 
-* **Explanation:** Grid = total town positions including the two ocean edges.
-* Travel, difficulty, and pacing scale with the distance between towns along this 1D grid.
+- Grid = total town positions including the two ocean edges.
+- Travel, difficulty, and pacing scale with the distance between towns along this 1D grid.
 
 ### How the Grid Works
 
@@ -64,21 +63,21 @@ World sizes define how many towns exist in the generation:
 
 ### How the Grid Affects Gameplay
 
-Players **can view the grid** through their MitTech Glove’s mapping interface, but the map reveals only:
+Players **can view the grid** through their MitTech Glove's mapping interface, but the map reveals only:
 
-* **Visited towns**
-* **Explored unsafe zones**
-* **Paths and door chains** discovered so far
-* **Biomes** of previously visited areas
+- Visited towns
+- Explored unsafe zones
+- Paths and door chains discovered so far
+- Biomes of previously visited areas
 
-Areas not yet explored appear as **fogged, blank, or unstable zones** (fits the shifting-world lore).
+Areas not yet explored appear as **fogged or blank** — the world is simply uncharted beyond where you've been.
 
 The grid influences:
 
-* Travel routes and distance
-* How many towns exist in the world
-* Difficulty scaling based on grid distance
-* Overall exploration pacing
+- Travel routes and distance
+- How many towns exist in the world
+- Difficulty scaling based on grid distance
+- Overall exploration pacing
 
 This turns the world map into a **strategic planning tool**, not just a visual reference.
 
@@ -127,15 +126,15 @@ The loop encourages:
 
 ## **5. Environmental Philosophy**
 
-The world is designed around an idea of **“reclaimed chaos”**:
+The world is designed around an idea of **"reclaimed chaos"**:
 
 - Towns look functional but improvised.
-- Unsafe zones feel alive, moving, shifting — almost reacting to the player.
+- Unsafe zones feel alive and layered — full of history, danger, and things left behind.
 - Ancient tech blends with magical residue.
 - Relics from before the Collapse show up in fragments.
 
 Instead of being fully futuristic or fully fantasy, AnotherLands sits exactly in the hybrid space:
-**“Magic that behaves like technology, and technology that behaves like magic.”**
+**"Magic that behaves like technology, and technology that behaves like magic."**
 
 ---
 
@@ -151,9 +150,9 @@ Each unsafe zone has identity through:
 
 This gives every run a memory:
 
-- “The overgrown factory where the drones awakened.”
-- “The sunken district full of corrupted plants.”
-- “The frost ruins where the mage cult left their marks.”
+- "The overgrown factory where the drones awakened."
+- "The sunken district full of corrupted plants."
+- "The frost ruins where the mage cult left their marks."
 
 ---
 
@@ -183,9 +182,10 @@ The world reinforces these overarching ideas:
 
 - **Humanity is rebuilding** from a technological collapse.
 - **Magic and tech are intertwined** — neither fully understood.
-- **Knowledge is fragmented**; relics hint at how things -used- to work.
+- **Knowledge is fragmented**; relics hint at how things used to work.
 - **Exploration is a necessity**, not a hobby — towns depend on scavengers.
-- **Player’s Smart Glove** is key to interacting with the world, remnants of forgotten MitTech systems.
+- **One company controls the world's economy** through a monopoly on the only widely available technology — and most people don't question it.
+- **The player's glove is different** — not a company product, but something older and realer than anything on the market.
 
 ---
 
