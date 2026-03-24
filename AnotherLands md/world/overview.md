@@ -189,27 +189,31 @@ The world reinforces these overarching ideas:
 
 ---
 
-## **9. Why Unsafe Zones Shift**
+## **9. Why Unsafe Zones Vary**
 
-Unsafe zones are unstable because:
+Unsafe zones aren't unstable or shifting — they're simply **unexplored territory**.
 
-- Environmental anomalies
-- Tech ruins reactivating
-- Magical contamination
-- Unreliable memory of the pre-collapse grid system
+When players leave a town, they head out in a direction and encounter whatever the world has out there.
+No deep lore reason. No anomaly justification. Just the nature of a vast, unmapped world where no two expeditions go the same way.
 
-This justifies procedural generation in-universe.
+Procedural generation reflects this naturally: the world is big, and most of it hasn't been seen yet.
 
 ---
 
 ## **10. How the Player Fits Into the World**
 
-The player is a **Scavenger**, equipped with an early-era MitTech Smart Glove prototype.
-This glove:
+The player wakes up in this world with **no memory** — no name, no past, no explanation.
 
-- Provides inventory, map, and crafting access.
-- Links to old tech scattered across the world.
-- Drives progression and unlocks new systems.
+Shortly after, they find an old, worn-down glove nearby. It feels oddly familiar. They put it on.
 
-Their role:
-**Push into the shifting world → retrieve resources → strengthen towns → reveal forgotten truth.**
+This is a **Real MitTech Glove** — not the company-manufactured version everyone else carries, but the original lineage. Built from the true recipes. The player is a descendant of the crafter bloodline that invented MitTech before it was stolen, though they don't know this yet.
+
+To everyone else in the world, the glove just looks old and outdated — an antique compared to the sleek Stolen MitTech devices the company sells. Nobody suspects what it actually is.
+
+The glove carries everything:
+- Inventory, map, and crafting access
+- The real MitTech recipes, embedded in the device
+- A quiet connection to something the world has forgotten
+
+The player's role, at least for now:
+**Wake up. Survive. Scavenge. And figure out why this glove chose you.**
