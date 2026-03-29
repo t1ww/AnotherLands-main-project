@@ -130,3 +130,15 @@ Unsafe Zones are not just paths between towns — they are where players define 
 
 ⸻
 
+Enemy Escalation System
+Difficulty in unsafe zones scales through enemy roster expansion and quantity, not stat inflation.
+	•	Each wildland cleared since leaving town advances an internal escalation counter.
+	•	New enemy types are introduced as the counter rises, each with distinct behaviors and mechanics that demand different responses from the player.
+	•	As the counter climbs further, the number of enemies per zone also increases alongside roster variety.
+	•	Once the full enemy roster for a biome is exhausted, quantity continues to scale indefinitely — turning deep runs into endurance challenges.
+	•	The counter resets on town entry, regardless of whether it’s a full hub or a filler town.
+Late Game Difficulty Selection
+Veteran players can manually set their starting escalation level when leaving a town — skipping the early ramp they’ve long outgrown. 
+Higher starting escalation means a more dangerous run from the first wildland, but also more enemies, more drops, and better loot from the start.
+
+---

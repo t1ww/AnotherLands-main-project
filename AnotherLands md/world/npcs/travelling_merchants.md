@@ -81,3 +81,64 @@ Shared Traits & Mystery
 - They refuse to acknowledge each other, but small hints suggest they know one another.
 - Villagers and rumors hint that they were once legendary figures during the apocalypse, though the truth is never fully confirmed.
 - Theories about them range from them being old comrades who went their separate ways to them competing against each other in an unspoken contest.
+
+---
+Additional stories
+---
+
+---
+
+## The Truth Nobody Knows
+
+During the apocalypse, the three were in their twenties.
+What they did to end the invasion has never been spoken aloud to anyone outside the three of them —
+not to villagers, not to customers, never in public.
+
+What is known, pieced together only by those who look closely enough:
+
+The shifted creatures had a core — an anchor point where their dimension
+was forcibly overlapping with this one.
+The three found it. And they destroyed it.
+
+The dimension didn't collapse violently.
+It simply stopped.
+Dissolved around them into silence and nothing —
+no ground, no sky, no sound.
+Just the three of them floating in the space where an entire dimension used to be.
+
+They don't know how long they were in there.
+When they dropped back into the world, ten years had passed.
+
+The war was already over in memory.
+The world had already started rebuilding.
+Nobody was waiting for them.
+
+They've been together through all of it — before, during, and after.
+Becoming merchants wasn't a calling. It was just something to do
+when the dust settled and they needed something to fill the time.
+It turned into a competition. The competition stuck.
+
+---
+
+## Why They Don't Speak Of It Publicly
+
+They still talk. They just don't do it where anyone can see.
+
+The rule is simple — in public, they don't acknowledge each other.
+During sales, no mention of the others, no comparisons, no hints.
+They are never seen together.
+
+It keeps the competition clean.
+No borrowed reputation, no favors, no history used as leverage.
+Just three merchants, each standing on their own product and personality.
+
+What the void did to their aging is a side effect they've never brought up with outsiders.
+They look like they're in their mid thirties.
+The math, for anyone paying attention, doesn't add up.
+
+They don't confirm it. They don't deny it.
+They just sell things, and they do it well,
+and somewhere underneath all of that is a quiet competition
+between three people who once watched a whole dimension disappear —
+and decided afterwards that the most interesting thing to do next
+was see who could run the better shop.
