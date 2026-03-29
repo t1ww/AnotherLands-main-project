@@ -86,11 +86,13 @@ Shared Traits & Mystery
 Additional stories
 ---
 
+---
+
 ## The Truth Nobody Knows
 
 During the apocalypse, the three were in their twenties.
-What they did to end the invasion has never been spoken aloud —
-not to villagers, not to customers, not to each other in any conversation anyone has witnessed.
+What they did to end the invasion has never been spoken aloud to anyone outside the three of them —
+not to villagers, not to customers, never in public.
 
 What is known, pieced together only by those who look closely enough:
 
@@ -111,28 +113,32 @@ The war was already over in memory.
 The world had already started rebuilding.
 Nobody was waiting for them.
 
-They went their separate ways shortly after.
-No ceremony. No explanation. No discussion of what they had seen or lost.
+They've been together through all of it — before, during, and after.
+Becoming merchants wasn't a calling. It was just something to do
+when the dust settled and they needed something to fill the time.
+It turned into a competition. The competition stuck.
 
 ---
 
-## Why They Don't Speak Of It
+## Why They Don't Speak Of It Publicly
 
-It isn't grief. It isn't guilt.
+They still talk. They just don't do it where anyone can see.
 
-They made a simple agreement —
-their past cannot be used as reputation.
-No mentions, no hints, no leveraging what they did for favor or sales.
-They compete on merit alone: product quality, personality, and craft.
+The rule is simple — in public, they don't acknowledge each other.
+During sales, no mention of the others, no comparisons, no hints.
+They are never seen together.
 
-The silence isn't painful. It's just the rule.
+It keeps the competition clean.
+No borrowed reputation, no favors, no history used as leverage.
+Just three merchants, each standing on their own product and personality.
 
-What the void did to their aging is a side effect they've never discussed either.
+What the void did to their aging is a side effect they've never brought up with outsiders.
 They look like they're in their mid thirties.
 The math, for anyone paying attention, doesn't add up.
 
 They don't confirm it. They don't deny it.
 They just sell things, and they do it well,
-and somewhere underneath all of that is the quietest competition
-between three people who once watched a whole dimension disappear.
-
+and somewhere underneath all of that is a quiet competition
+between three people who once watched a whole dimension disappear —
+and decided afterwards that the most interesting thing to do next
+was see who could run the better shop.
