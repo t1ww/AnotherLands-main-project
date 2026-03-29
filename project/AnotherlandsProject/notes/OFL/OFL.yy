@@ -3,8 +3,8 @@
   "%Name":"OFL",
   "name":"OFL",
   "parent":{
-    "name":"pressStart2p",
-    "path":"folders/Data/GameConfig/fonts/pressStart2p.yy",
+    "name":"font_pressStart2p",
+    "path":"folders/Copyrights/font_pressStart2p.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

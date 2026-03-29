@@ -35,9 +35,10 @@
     {"$GMFolder":"","%Name":"Data","folderPath":"folders/Data.yy","name":"Data","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GameConfig","folderPath":"folders/Data/GameConfig.yy","name":"GameConfig","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"fonts","folderPath":"folders/Data/GameConfig/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"pressStart2p","folderPath":"folders/Data/GameConfig/fonts/pressStart2p.yy","name":"pressStart2p","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"font_pressStart2p","folderPath":"folders/Copyrights/font_pressStart2p.yy","name":"font_pressStart2p","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"PlayerData","folderPath":"folders/Data/PlayerData.yy","name":"PlayerData","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"SaveData","folderPath":"folders/Data/SaveData.yy","name":"SaveData","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Copyrights","folderPath":"folders/Copyrights.yy","name":"Copyrights","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"main","folderPath":"folders/Rooms/main.yy","name":"main","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"parents","folderPath":"folders/Rooms/parents.yy","name":"parents","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -76,7 +77,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"AnotherlandsProject",
   "resources":[
