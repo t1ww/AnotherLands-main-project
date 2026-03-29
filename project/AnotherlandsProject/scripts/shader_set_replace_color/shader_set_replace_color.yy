@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"shader_set_replace_color",
   "parent":{
-    "name":"shd_replace_color group",
-    "path":"folders/src/Shader/shd_replace_color group.yy",
+    "name":"replace_color",
+    "path":"folders/src/Shader/replace_color.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

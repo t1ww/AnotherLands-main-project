@@ -10,8 +10,8 @@
   "name":"cont_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"global",
-    "path":"folders/src/Main/controllers/global.yy",
+    "name":"Camera",
+    "path":"folders/src/Main/Controllers/Camera.yy",
   },
   "parentObjectId":{
     "name":"p_controller",

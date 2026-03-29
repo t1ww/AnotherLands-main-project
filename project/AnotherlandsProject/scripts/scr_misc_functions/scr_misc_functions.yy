@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_misc_functions",
   "parent":{
-    "name":"Main",
-    "path":"folders/src/Main.yy",
+    "name":"Miscellaneous",
+    "path":"folders/src/Main/Utility/Miscellaneous.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

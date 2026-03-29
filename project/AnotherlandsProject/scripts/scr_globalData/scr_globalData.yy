@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_globalData",
   "parent":{
-    "name":"Data",
-    "path":"folders/Data.yy",
+    "name":"GameData",
+    "path":"folders/Data/GameData.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

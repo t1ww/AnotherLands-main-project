@@ -71,5 +71,4 @@ with (EVENT_LISTENER) {
 		
 		return self;
     }
-	
 }

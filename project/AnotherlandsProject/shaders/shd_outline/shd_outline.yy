@@ -3,8 +3,8 @@
   "%Name":"shd_outline",
   "name":"shd_outline",
   "parent":{
-    "name":"Shader",
-    "path":"folders/src/Shader.yy",
+    "name":"highlights",
+    "path":"folders/src/Shader/highlights.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

@@ -120,8 +120,8 @@
   "maintainGms1Font":false,
   "name":"fnt_default",
   "parent":{
-    "name":"fonts",
-    "path":"folders/Data/GameConfig/fonts.yy",
+    "name":"Fonts",
+    "path":"folders/Assets/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

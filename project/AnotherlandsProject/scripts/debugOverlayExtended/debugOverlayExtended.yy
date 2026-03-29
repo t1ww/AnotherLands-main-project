@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"debugOverlayExtended",
   "parent":{
-    "name":"debug_overlay",
-    "path":"folders/src/Main/Utility/debug_overlay.yy",
+    "name":"DebugOverlay",
+    "path":"folders/src/Main/Utility/DebugOverlay.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

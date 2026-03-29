@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_components_builder",
+  "%Name":"scr_event_listener",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_components_builder",
+  "name":"scr_event_listener",
   "parent":{
     "name":"Miscellaneous",
     "path":"folders/src/Main/Utility/Miscellaneous.yy",

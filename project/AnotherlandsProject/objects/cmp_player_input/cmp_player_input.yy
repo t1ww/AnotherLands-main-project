@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"components",
-    "path":"folders/src/Main/Player/controller/components.yy",
+    "path":"folders/src/Main/Player/Controller/components.yy",
   },
   "parentObjectId":null,
   "persistent":false,

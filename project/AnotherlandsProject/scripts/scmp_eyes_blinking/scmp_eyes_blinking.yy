@@ -6,7 +6,7 @@
   "name":"scmp_eyes_blinking",
   "parent":{
     "name":"components",
-    "path":"folders/src/Main/Player/character/components.yy",
+    "path":"folders/src/Main/Player/Character/components.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

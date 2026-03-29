@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_stateMachine",
+  "%Name":"scr_sine_wave",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_stateMachine",
+  "name":"scr_sine_wave",
   "parent":{
-    "name":"scripts",
-    "path":"folders/src/Main/Utility/scripts.yy",
+    "name":"Miscellaneous",
+    "path":"folders/src/Main/Utility/Miscellaneous.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

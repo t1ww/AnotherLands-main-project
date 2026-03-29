@@ -6,8 +6,8 @@
   "name":"p_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"global",
-    "path":"folders/src/Main/controllers/global.yy",
+    "name":"Global",
+    "path":"folders/src/Main/Controllers/Global.yy",
   },
   "parentObjectId":null,
   "persistent":true,

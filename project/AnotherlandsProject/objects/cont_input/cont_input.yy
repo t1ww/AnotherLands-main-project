@@ -9,8 +9,8 @@
   "name":"cont_input",
   "overriddenProperties":[],
   "parent":{
-    "name":"global",
-    "path":"folders/src/Main/controllers/global.yy",
+    "name":"Input",
+    "path":"folders/src/Main/Controllers/Input.yy",
   },
   "parentObjectId":{
     "name":"p_controller",

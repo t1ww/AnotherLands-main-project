@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_masterConfigs",
+  "%Name":"scr_master_configs",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_masterConfigs",
+  "name":"scr_master_configs",
   "parent":{
     "name":"Main",
     "path":"folders/src/Main.yy",

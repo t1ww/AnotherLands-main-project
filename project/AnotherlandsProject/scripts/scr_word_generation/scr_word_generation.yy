@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_wordGeneration",
+  "%Name":"scr_word_generation",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_wordGeneration",
+  "name":"scr_word_generation",
   "parent":{
     "name":"WorldGeneration",
     "path":"folders/src/Main/WorldGeneration.yy",
