@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"AnotherlandsProject",
   "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Assets","folderPath":"folders/Assets.yy","name":"Assets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Assets/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Icons","folderPath":"folders/Assets/Icons.yy","name":"Icons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"SceneBuilders","folderPath":"folders/Assets/SceneBuilders.yy","name":"SceneBuilders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"decors","folderPath":"folders/Assets/SceneBuilders/decors.yy","name":"decors","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -36,9 +37,8 @@
     {"$GMFolder":"","%Name":"font_pressStart2p","folderPath":"folders/Copyrights/font_pressStart2p.yy","name":"font_pressStart2p","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Data","folderPath":"folders/Data.yy","name":"Data","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GameConfig","folderPath":"folders/Data/GameConfig.yy","name":"GameConfig","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Assets/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"PlayerData","folderPath":"folders/Data/PlayerData.yy","name":"PlayerData","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GameData","folderPath":"folders/Data/GameData.yy","name":"GameData","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"PlayerData","folderPath":"folders/Data/PlayerData.yy","name":"PlayerData","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"main","folderPath":"folders/Rooms/main.yy","name":"main","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"parents","folderPath":"folders/Rooms/parents.yy","name":"parents","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -58,8 +58,8 @@
     {"$GMFolder":"","%Name":"src","folderPath":"folders/src.yy","name":"src","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Main","folderPath":"folders/src/Main.yy","name":"Main","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Controllers","folderPath":"folders/src/Main/Controllers.yy","name":"Controllers","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Global","folderPath":"folders/src/Main/Controllers/Global.yy","name":"Global","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Camera","folderPath":"folders/src/Main/Controllers/Camera.yy","name":"Camera","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Global","folderPath":"folders/src/Main/Controllers/Global.yy","name":"Global","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Input","folderPath":"folders/src/Main/Controllers/Input.yy","name":"Input","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Npc","folderPath":"folders/src/Main/Npc.yy","name":"Npc","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/src/Main/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
