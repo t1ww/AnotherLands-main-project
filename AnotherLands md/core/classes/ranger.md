@@ -1,1 +1,0 @@
-- I can use gamemaker's sequence to make reload animations.
