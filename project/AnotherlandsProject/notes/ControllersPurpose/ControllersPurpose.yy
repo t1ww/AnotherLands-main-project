@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"ControllersPurpose",
+  "name":"ControllersPurpose",
+  "parent":{
+    "name":"Controllers",
+    "path":"folders/src/Main/Controllers.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

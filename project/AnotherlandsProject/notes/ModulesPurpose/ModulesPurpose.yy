@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"ModulesPurpose",
+  "name":"ModulesPurpose",
+  "parent":{
+    "name":"Modules",
+    "path":"folders/src/Main/Modules.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

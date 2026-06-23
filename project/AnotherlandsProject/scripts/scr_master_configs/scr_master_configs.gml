@@ -1,4 +1,13 @@
-#macro TITLE "Title 2"
+var _titles = [
+		"AnotherLands WIP", 
+		"Something funny here",
+		"Try out terraria!",
+		"I also like starbound!",
+		"Have you tried using magic?"
+	];
+randomise();
+global.chosenTitle = array_choose(_titles);
+#macro TITLE global.chosenTitle
 
 // user created scripted
 #region /// Constants

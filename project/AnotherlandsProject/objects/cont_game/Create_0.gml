@@ -72,6 +72,8 @@
 	}
 	
 /// GAME START UP SCRIPTS ///
+// Set title
+window_set_caption(TITLE);
 // Set draw
 	draw_set_default();
 

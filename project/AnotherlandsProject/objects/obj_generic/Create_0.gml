@@ -1,6 +1,8 @@
 /// @description  desc -- obj_generic
 // event : create
 // code here >
+// This object is for quick disposable use;
+// Create, set step, set draw, and leave it.
 step = undefined;
 
 set_step = function(_func){

@@ -425,7 +425,7 @@ draw_bodyparts = function() {
 
 // set camera
 	if(instance_exists(cont_camera)){
-		cont_camera.target = self;	
+		cont_camera.set_target(self, true);
 	}
 		
 /// /// /// /// /// /// /// ///
