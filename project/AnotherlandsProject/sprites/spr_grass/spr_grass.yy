@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"grass",
-    "path":"folders/Assets/Sprites/visuals/grass.yy",
+    "name":"Grasses",
+    "path":"folders/Assets/Sprites/Scenery/Grasses.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

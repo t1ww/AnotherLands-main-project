@@ -14,8 +14,8 @@
   "name":"cont_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main",
-    "path":"folders/src/Main.yy",
+    "name":"Controllers",
+    "path":"folders/src/Main/Controllers.yy",
   },
   "parentObjectId":null,
   "persistent":true,

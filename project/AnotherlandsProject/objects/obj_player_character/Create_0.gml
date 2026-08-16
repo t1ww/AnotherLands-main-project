@@ -330,11 +330,11 @@ depth -= 1;
 		.set_name ("state dash")
 		.set_step (function() {
 			// create trail
-			var _inst = cont_game.create_entity(x,y,obj_trail);
+			var _inst = cont_game.create_entity(x,y,obj_player_trail);
 			_inst.set_sprite(self.sprite_index);
 			_inst.image_xscale = self.image_xscale;
 			// dash to the direction
-			h_speed = (__.dash_speed--) * __.dash_dir;
+			h_speed = (max(__.dash_speed--, 1)) * __.dash_dir;
 			// moving vertically ( gravity )
 			v_speed = v_speed + (grv/2);
 			// move & collide
@@ -349,8 +349,8 @@ depth -= 1;
 		} )
 		.set_start(function() {
 			// start
-			__.dash_dir = sign(mouse_x - x) * 1;
-			__.dash_speed = 30;
+			__.dash_dir = sign(h_speed);
+			__.dash_speed =  __.base_speed * 5;
 			__.dash_length = 16; // frames
 			__.can_dash = false;
 			set_facing_direction(__.dash_dir);

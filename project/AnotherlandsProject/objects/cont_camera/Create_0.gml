@@ -25,7 +25,7 @@ look_ahead_x = 0;
 // Configs
 look_ahead_distance = 96;
 look_ahead_speed_scale = 12;
-look_ahead_stiffness = 0.1;
+look_ahead_stiffness = 0.01; // 1 = Immediately snap to look ahead
 
 // Functions
 set_target = function(_target, _use_look_ahead = false) {

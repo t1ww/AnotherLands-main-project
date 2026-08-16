@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"general",
-    "path":"folders/Assets/Sprites/visuals/general.yy",
+    "name":"Other",
+    "path":"folders/Assets/Sprites/Scenery/Other.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

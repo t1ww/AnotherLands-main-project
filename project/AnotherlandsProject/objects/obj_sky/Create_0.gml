@@ -6,7 +6,7 @@
 depth += 1;
 
 // Draw black box underground
-underground_black_box = instance_create_layer(x,y, "props", obj_generic);
+underground_black_box = instance_create_layer(x,y, "props", obj_disposable);
 with(underground_black_box) {
 	depth -= 1;
 	set_draw(function() {

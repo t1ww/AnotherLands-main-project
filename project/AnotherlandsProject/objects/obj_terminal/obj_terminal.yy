@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_terminal",
-    "path":"sprites/spr_terminal/spr_terminal.yy",
+    "name":"spr_terminal_projector_machine",
+    "path":"sprites/spr_terminal_projector_machine/spr_terminal_projector_machine.yy",
   },
   "spriteMaskId":null,
   "visible":true,

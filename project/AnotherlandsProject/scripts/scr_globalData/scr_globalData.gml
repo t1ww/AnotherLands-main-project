@@ -136,6 +136,9 @@ with (CONFIG) {
 // SECTION TELEPORT
 	dbg_section("Room Goto");
 	// set room to somewhere
+	dbg_button("Test room", function() {
+		room_goto(rm_test);
+	});
 	
 // SECTION COMMANDS
 	dbg_section("Command Buttons");
