@@ -254,7 +254,6 @@ depth -= 1;
 			if (movement() and on_ground) {
 				state.set_state(state.free);
 			}
-			handle_dash();
 			/// ANIMATION
 			animation_state.set_state(animation_state.idle);
 		} )
@@ -274,7 +273,6 @@ depth -= 1;
 			if (!movement()) {
 				state.set_state(state.idle);
 			}
-			handle_dash();
 			/// ANIMATION
 			if (h_speed != 0) {
 				set_facing_direction(sign(h_speed));	
@@ -284,6 +282,7 @@ depth -= 1;
 				animation_state.set_state(animation_state.walk);
 			} else {
 				// run
+				handle_dash();
 				animation_state.set_state(animation_state.run);
 			}
 		} )
@@ -301,7 +300,6 @@ depth -= 1;
 		.set_step (function() {
 			// controls	
 			movement();
-			handle_dash();
 			if(on_ground){
 				state.set_state(state.free);
 			}
@@ -339,7 +337,7 @@ depth -= 1;
 			v_speed = v_speed + (grv/2);
 			// move & collide
 			var _colliders = movement_collision(h_speed,v_speed,obj_collision);
-			if(__.dash_length-- < 0) {
+			if(__.dash_speed < 1) {
 				state.set_state(state.free);
 				var _ts_reset_dash = time_source_create(time_source_game, .5, time_source_units_seconds, function(){
 					__.can_dash = true;
@@ -349,9 +347,8 @@ depth -= 1;
 		} )
 		.set_start(function() {
 			// start
-			__.dash_dir = sign(h_speed);
-			__.dash_speed =  __.base_speed * 5;
-			__.dash_length = 16; // frames
+			__.dash_dir = facing_direction;
+			__.dash_speed =  __.base_speed * 6;
 			__.can_dash = false;
 			set_facing_direction(__.dash_dir);
 		} )
