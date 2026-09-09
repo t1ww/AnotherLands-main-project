@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"TestDebugOverlaySetup",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"TestDebugOverlaySetup",
+  "parent":{
+    "name":"Test",
+    "path":"folders/src/Test.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

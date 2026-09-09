@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"cmp_player_input",
+  "%Name":"p_components",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"cmp_player_input",
+  "name":"p_components",
   "overriddenProperties":[],
   "parent":{
-    "name":"components",
-    "path":"folders/src/Main/Player/Controller/components.yy",
+    "name":"Parents",
+    "path":"folders/src/Main/Parents.yy",
   },
-  "parentObjectId":{
-    "name":"p_components",
-    "path":"objects/p_components/p_components.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -33,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"icon_component",
-    "path":"sprites/icon_component/icon_component.yy",
+    "name":"icon_parent",
+    "path":"sprites/icon_parent/icon_parent.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

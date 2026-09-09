@@ -39,19 +39,14 @@
 	}
 	
 #region // DEBUG OVERLAY
-	dbg_section("player value section");
+	dbg_set_view(cont_game.value_dbgview);
+	dbg_section("Player Value Section");
 	DBG_OVERLAY.add_variable(self.__,"input_h");
 	DBG_OVERLAY.add_variable(self.__,"input_v");
-
-    update_debug_overlay = function() { 
-        __.input_h = cmp_player_input.get_h();
-        __.input_v = cmp_player_input.get_v();
-    }
 #endregion
 	
 // CREATE CALLBACK
 	character_create(50,50);
-
 
 EVENT_LISTENER.event_assign("pressed_button", self, function(_data) {
     show_debug_message($"Pressed Enter {_data} times")

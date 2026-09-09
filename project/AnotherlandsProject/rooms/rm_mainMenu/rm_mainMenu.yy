@@ -25,8 +25,8 @@
   ],
   "name":"rm_mainMenu",
   "parent":{
-    "name":"main",
-    "path":"folders/Rooms/main.yy",
+    "name":"outside game",
+    "path":"folders/Rooms/outside game.yy",
   },
   "parentRoom":{
     "name":"rm_parent",

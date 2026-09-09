@@ -10,12 +10,12 @@
   "name":"cont_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Camera",
-    "path":"folders/src/Main/Controllers/Camera.yy",
+    "name":"Controllers",
+    "path":"folders/src/Main/Controllers.yy",
   },
   "parentObjectId":{
-    "name":"p_controller",
-    "path":"objects/p_controller/p_controller.yy",
+    "name":"p_controllers",
+    "path":"objects/p_controllers/p_controllers.yy",
   },
   "persistent":true,
   "physicsAngularDamping":0.1,

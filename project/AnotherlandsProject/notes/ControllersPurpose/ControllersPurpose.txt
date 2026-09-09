@@ -1,2 +1,0 @@
-# This folder contains
-- All of the important core systems of the game.

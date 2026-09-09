@@ -1,16 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"p_controller",
-  "eventList":[],
+  "%Name":"cont_time",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"p_controller",
+  "name":"cont_time",
   "overriddenProperties":[],
   "parent":{
-    "name":"Parent",
-    "path":"folders/src/Main/Controllers/Parent.yy",
+    "name":"Controllers",
+    "path":"folders/src/Main/Controllers.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"p_controllers",
+    "path":"objects/p_controllers/p_controllers.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -27,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"icon_cont_parent",
-    "path":"sprites/icon_cont_parent/icon_cont_parent.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

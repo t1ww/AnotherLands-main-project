@@ -9,12 +9,12 @@
   "name":"cont_input",
   "overriddenProperties":[],
   "parent":{
-    "name":"Input",
-    "path":"folders/src/Main/Controllers/Input.yy",
+    "name":"Controllers",
+    "path":"folders/src/Main/Controllers.yy",
   },
   "parentObjectId":{
-    "name":"p_controller",
-    "path":"objects/p_controller/p_controller.yy",
+    "name":"p_controllers",
+    "path":"objects/p_controllers/p_controllers.yy",
   },
   "persistent":true,
   "physicsAngularDamping":0.1,

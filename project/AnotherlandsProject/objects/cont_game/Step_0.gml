@@ -1,22 +1,22 @@
 /// @description > cont_game Step event
-
 // Variable for debug ref
 	// Mouse coords
-	mx = mouse_x;
-	my = mouse_y;
-	// Mouse to gui
-	mx_gui = mouse_x_gui;
-	my_gui = mouse_y_gui;
+	dbg_mouse_x = mouse_x;
+	dbg_mouse_y = mouse_y;
+	// Mouse coords to gui
+	dbg_mouse_x_gui = mouse_x_gui;
+	dbg_mouse_y_gui = mouse_y_gui;
 	
 #region /// interactables
 /*
 	If mouse is far from the character, get the nearest interactables to the character
 	Else get the nearest interactables to the mouse
 */
-	if (!instance_exists(obj_player) 
-	or obj_player.__.character.instance == null) { exit; }
-	// // 
+	if (!instance_exists(obj_player) || !instance_exists(obj_player.character)) {
+	    exit;
+	}
 	var _inst = null, _p = obj_player.__.character.instance;
+	
 	// If mouse is near the player (128px)
 	if(point_distance(mouse_x,mouse_y,_p.x,_p.y) < 256) {
 		// Get nearest to mouse

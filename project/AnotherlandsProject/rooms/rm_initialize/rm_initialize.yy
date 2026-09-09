@@ -18,8 +18,8 @@
   ],
   "name":"rm_initialize",
   "parent":{
-    "name":"main",
-    "path":"folders/Rooms/main.yy",
+    "name":"outside game",
+    "path":"folders/Rooms/outside game.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

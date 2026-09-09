@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"cmp_player_input",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"cmp_connection",
+  "eventList":[],
   "managed":true,
-  "name":"cmp_player_input",
+  "name":"cmp_connection",
   "overriddenProperties":[],
   "parent":{
     "name":"components",

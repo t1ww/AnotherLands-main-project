@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"icon_cont_parent",
-    "path":"sprites/icon_cont_parent/icon_cont_parent.yy",
+    "name":"icon_parent",
+    "path":"sprites/icon_parent/icon_parent.yy",
   },
   "spriteMaskId":null,
   "visible":true,

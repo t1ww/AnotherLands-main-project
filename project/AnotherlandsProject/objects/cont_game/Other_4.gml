@@ -3,7 +3,7 @@
 
 // Set collision layer's visibility
 var _layer = layer_get_id("collision");
-layer_set_visible(_layer,collision_visible);
+layer_set_visible(_layer,dbg_collision_visible);
 
 // Create sky if possible (suitable room)
 if (layer_exists("scene")) {

@@ -11,7 +11,10 @@
     "name":"components",
     "path":"folders/src/Main/Player/Character/components.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"p_components",
+    "path":"objects/p_components/p_components.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"icon_cont_parent",
-    "path":"sprites/icon_cont_parent/icon_cont_parent.yy",
+    "name":"icon_component",
+    "path":"sprites/icon_component/icon_component.yy",
   },
   "spriteMaskId":null,
   "visible":true,

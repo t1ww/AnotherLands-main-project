@@ -249,7 +249,7 @@ depth -= 1;
 /// STATE IDLE
 	state.idle = new state.state_create()
 		.set_name("state idle")
-		.set_step ( function() {
+		.set_step (function() {
 			// if move, state free
 			if (movement() and on_ground) {
 				state.set_state(state.free);
@@ -257,11 +257,11 @@ depth -= 1;
 			/// ANIMATION
 			animation_state.set_state(animation_state.idle);
 		} )
-		.set_start( function() {
+		.set_start(function() {
 			// start
 			set_sprite(spr_player);
 		} )
-		.set_stop ( function() {
+		.set_stop (function() {
             // stop
 		} );
 	
@@ -275,9 +275,15 @@ depth -= 1;
 			}
 			/// ANIMATION
 			if (h_speed != 0) {
-				set_facing_direction(sign(h_speed));	
+				movement_direction = sign(h_speed);
+				// Delay by 3-7 frames to create smooth transition feels.
+				if (movement_direction != facing_direction) {
+					call_later(irandom_range(3, 7), time_source_units_frames, function(){
+						set_facing_direction(movement_direction);
+					})
+				}
 			}
-			if (!cmp_player_input.get_sprint().check) {
+			if (!cmp_player_input.get_sprint().check){
 				// walk
 				animation_state.set_state(animation_state.walk);
 			} else {
@@ -305,7 +311,13 @@ depth -= 1;
 			}
 			/// ANIMATION
 			if (h_speed != 0) {
-				set_facing_direction(sign(h_speed));	
+				movement_direction = sign(h_speed);
+				// Delay by 3-7 frames to create smooth transition feels.
+				if (movement_direction != facing_direction) {
+					call_later(irandom_range(3, 7), time_source_units_frames, function(){
+						set_facing_direction(movement_direction);
+					})
+				}
 			}
 			// will be changed
 			if (v_speed < 0) {

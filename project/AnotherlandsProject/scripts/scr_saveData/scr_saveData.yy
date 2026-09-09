@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_saveData",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_saveData",
+  "parent":{
+    "name":"GameData",
+    "path":"folders/Data/GameData.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
