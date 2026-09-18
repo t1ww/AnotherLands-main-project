@@ -9,8 +9,8 @@
   "name":"obj_sky",
   "overriddenProperties":[],
   "parent":{
-    "name":"global",
-    "path":"folders/Assets/SceneBuilders/global.yy",
+    "name":"Global",
+    "path":"folders/Assets/SceneBuilders/Global.yy",
   },
   "parentObjectId":null,
   "persistent":true,

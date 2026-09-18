@@ -6,8 +6,8 @@
   "name":"obj_terminal",
   "overriddenProperties":[],
   "parent":{
-    "name":"interactables",
-    "path":"folders/Assets/SceneBuilders/interactables.yy",
+    "name":"Interactables",
+    "path":"folders/Assets/SceneBuilders/Interactables.yy",
   },
   "parentObjectId":{
     "name":"p_interactable",

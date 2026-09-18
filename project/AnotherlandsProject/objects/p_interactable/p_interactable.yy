@@ -10,8 +10,8 @@
   "name":"p_interactable",
   "overriddenProperties":[],
   "parent":{
-    "name":"interactables",
-    "path":"folders/Assets/SceneBuilders/interactables.yy",
+    "name":"Interactables",
+    "path":"folders/Assets/SceneBuilders/Interactables.yy",
   },
   "parentObjectId":null,
   "persistent":false,

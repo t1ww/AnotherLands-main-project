@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stairs_collision",
+  "%Name":"obj_stairsCollision",
   "eventList":[],
   "managed":true,
-  "name":"obj_stairs_collision",
+  "name":"obj_stairsCollision",
   "overriddenProperties":[],
   "parent":{
-    "name":"interactables",
-    "path":"folders/Assets/SceneBuilders/interactables.yy",
+    "name":"Collisions",
+    "path":"folders/Assets/SceneBuilders/Collisions.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_stairs_collision",
-    "path":"sprites/spr_stairs_collision/spr_stairs_collision.yy",
+    "name":"spr_stairsCollision",
+    "path":"sprites/spr_stairsCollision/spr_stairsCollision.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -6,8 +6,8 @@
   "name":"p_collision",
   "overriddenProperties":[],
   "parent":{
-    "name":"interactables",
-    "path":"folders/Assets/SceneBuilders/interactables.yy",
+    "name":"Collisions",
+    "path":"folders/Assets/SceneBuilders/Collisions.yy",
   },
   "parentObjectId":null,
   "persistent":false,

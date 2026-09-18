@@ -6,8 +6,8 @@
   "name":"obj_farbg_back",
   "overriddenProperties":[],
   "parent":{
-    "name":"decors",
-    "path":"folders/Assets/SceneBuilders/decors.yy",
+    "name":"Decors",
+    "path":"folders/Assets/SceneBuilders/Decors.yy",
   },
   "parentObjectId":{
     "name":"p_decor",

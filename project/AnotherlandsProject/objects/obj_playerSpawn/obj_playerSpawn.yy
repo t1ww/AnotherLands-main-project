@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_town_door",
+  "%Name":"obj_playerSpawn",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_town_door",
+  "name":"obj_playerSpawn",
   "overriddenProperties":[],
   "parent":{
-    "name":"interactables",
-    "path":"folders/Assets/SceneBuilders/interactables.yy",
+    "name":"Collisions",
+    "path":"folders/Assets/SceneBuilders/Collisions.yy",
   },
-  "parentObjectId":{
-    "name":"p_interactable",
-    "path":"objects/p_interactable/p_interactable.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,14 +26,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"travel_direction","filters":[],"listItems":[],"multiselect":false,"name":"travel_direction","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"RIGHT","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"spawn_id","filters":[],"listItems":[],"multiselect":false,"name":"spawn_id","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_door",
-    "path":"sprites/spr_door/spr_door.yy",
+    "name":"spr_player_box",
+    "path":"sprites/spr_player_box/spr_player_box.yy",
   },
   "spriteMaskId":null,
   "visible":true,

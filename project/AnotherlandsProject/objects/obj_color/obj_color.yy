@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player_spawn",
+  "%Name":"obj_color",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player_spawn",
+  "name":"obj_color",
   "overriddenProperties":[],
   "parent":{
-    "name":"interactables",
-    "path":"folders/Assets/SceneBuilders/interactables.yy",
+    "name":"Generic",
+    "path":"folders/Assets/SceneBuilders/Generic.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,14 +27,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"spawn_id","filters":[],"listItems":[],"multiselect":false,"name":"spawn_id","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"self_color","filters":[],"listItems":[],"multiselect":false,"name":"self_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF00FF00","varType":7,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_box",
-    "path":"sprites/spr_player_box/spr_player_box.yy",
+    "name":"spr_color",
+    "path":"sprites/spr_color/spr_color.yy",
   },
   "spriteMaskId":null,
   "visible":true,

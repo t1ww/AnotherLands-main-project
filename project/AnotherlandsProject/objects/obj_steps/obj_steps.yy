@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_steps",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_steps",
   "overriddenProperties":[],
   "parent":{
-    "name":"interactables",
-    "path":"folders/Assets/SceneBuilders/interactables.yy",
+    "name":"Collisions",
+    "path":"folders/Assets/SceneBuilders/Collisions.yy",
   },
   "parentObjectId":{
     "name":"p_collision",

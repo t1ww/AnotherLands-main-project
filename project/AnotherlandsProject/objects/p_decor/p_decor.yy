@@ -9,8 +9,8 @@
   "name":"p_decor",
   "overriddenProperties":[],
   "parent":{
-    "name":"decors",
-    "path":"folders/Assets/SceneBuilders/decors.yy",
+    "name":"Decors",
+    "path":"folders/Assets/SceneBuilders/Decors.yy",
   },
   "parentObjectId":null,
   "persistent":false,

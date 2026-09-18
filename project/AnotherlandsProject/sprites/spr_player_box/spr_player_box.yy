@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Placeholders",
-    "path":"folders/Assets/Sprites/Placeholders.yy",
+    "name":"Generic",
+    "path":"folders/Assets/Sprites/Generic.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
