@@ -1,4 +1,4 @@
-/// @description > obj_player create
+/// @description > obj_player_controller create
 // > Imports
     import(cmp_player_input);
 

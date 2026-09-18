@@ -12,10 +12,10 @@
 	If mouse is far from the character, get the nearest interactables to the character
 	Else get the nearest interactables to the mouse
 */
-	if (!instance_exists(obj_player) || !instance_exists(obj_player.character)) {
+	if (!instance_exists(obj_player_controller) || !instance_exists(obj_player_controller.character)) {
 	    exit;
 	}
-	var _inst = null, _p = obj_player.__.character.instance;
+	var _inst = null, _p = obj_player_controller.__.character.instance;
 	
 	// If mouse is near the player (128px)
 	if(point_distance(mouse_x,mouse_y,_p.x,_p.y) < 256) {
@@ -50,7 +50,7 @@ array_foreach(step_functions, function(e,i) {
 
 #region /// /// TESTING /// /// TESTING /// ///
 	if (cont_input.check_all(vk_shift, vk_enter, ord("L"))) {
-		obj_player.character_destroy();
+		obj_player_controller.character_destroy();
 	}
 	
     pressed_button_counter = function() {

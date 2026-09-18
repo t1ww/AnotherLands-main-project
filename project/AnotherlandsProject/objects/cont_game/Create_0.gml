@@ -16,7 +16,7 @@
 	spawn_id = 0;
 	
 	self[$ "nearest_interact"] ??= null;
-	controller_list = [cont_camera,cont_input,obj_player];
+	controller_list = [cont_camera,cont_input,obj_player_controller];
 	step_functions = [];
 #endregion ///
 

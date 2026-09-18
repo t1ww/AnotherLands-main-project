@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"icon_time",
+    "path":"sprites/icon_time/icon_time.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -41,13 +41,13 @@
 	});
 	// player create
 	dbg_button("create",function() {
-		with(obj_player) character_create(50,50);
+		with(obj_player_controller) character_create(50,50);
 	});
 	dbg_same_line();
 	dbg_text("player character");
 	// player destroy
 	dbg_button("destroy",function() {
-		with(obj_player) character_destroy();
+		with(obj_player_controller) character_destroy();
 	});
 	dbg_same_line();
 	dbg_text("player character");
