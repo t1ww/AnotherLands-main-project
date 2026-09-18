@@ -6,8 +6,8 @@
   "name":"cmp_connection",
   "overriddenProperties":[],
   "parent":{
-    "name":"components",
-    "path":"folders/src/Main/Player/Controller/components.yy",
+    "name":"Components",
+    "path":"folders/src/Main/Player/Controller/Components.yy",
   },
   "parentObjectId":{
     "name":"p_components",

@@ -8,8 +8,8 @@
   "name":"cmp_eyes_blinking",
   "overriddenProperties":[],
   "parent":{
-    "name":"components",
-    "path":"folders/src/Main/Player/Character/components.yy",
+    "name":"Components",
+    "path":"folders/src/Main/Player/Character/Components.yy",
   },
   "parentObjectId":{
     "name":"p_components",

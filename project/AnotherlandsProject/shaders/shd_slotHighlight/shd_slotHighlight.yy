@@ -1,7 +1,7 @@
 {
   "$GMShader":"",
-  "%Name":"shd_outline",
-  "name":"shd_outline",
+  "%Name":"shd_slotHighlight",
+  "name":"shd_slotHighlight",
   "parent":{
     "name":"Highlights",
     "path":"folders/src/Shader/Highlights.yy",

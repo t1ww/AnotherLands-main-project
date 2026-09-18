@@ -31,7 +31,7 @@ function array_color_normalized(_a) {
 
 // Function to set the shader and its uniforms
 function shader_set_replace_colors(_color_array) {
-    var _shd = shd_replace_color;
+    var _shd = shd_replaceColor;
 
     // Activate the shader
     shader_set(_shd);
