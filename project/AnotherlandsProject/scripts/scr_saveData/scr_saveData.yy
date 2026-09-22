@@ -6,7 +6,7 @@
   "name":"scr_saveData",
   "parent":{
     "name":"GameData",
-    "path":"folders/Data/GameData.yy",
+    "path":"folders/src/Data/GameData.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

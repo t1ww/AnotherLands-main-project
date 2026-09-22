@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_master_configs",
+  "%Name":"scr_initializeData",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_master_configs",
+  "name":"scr_initializeData",
   "parent":{
-    "name":"Main",
-    "path":"folders/src/Main.yy",
+    "name":"Data",
+    "path":"folders/src/Data.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

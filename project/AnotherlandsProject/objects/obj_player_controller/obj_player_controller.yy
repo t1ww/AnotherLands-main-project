@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Controller",
-    "path":"folders/src/Main/Player/Controller.yy",
+    "path":"folders/src/Main/Features/Entities/Player/Controller.yy",
   },
   "parentObjectId":null,
   "persistent":true,

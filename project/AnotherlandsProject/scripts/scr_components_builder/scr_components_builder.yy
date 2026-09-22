@@ -6,7 +6,7 @@
   "name":"scr_components_builder",
   "parent":{
     "name":"Miscellaneous",
-    "path":"folders/src/Main/Utility/Miscellaneous.yy",
+    "path":"folders/src/Utility/Miscellaneous.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

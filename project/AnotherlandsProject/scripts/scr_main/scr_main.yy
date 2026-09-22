@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"TestDebugOverlaySetup",
+  "%Name":"scr_main",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"TestDebugOverlaySetup",
+  "name":"scr_main",
   "parent":{
-    "name":"Test",
-    "path":"folders/src/Test.yy",
+    "name":"Main",
+    "path":"folders/src/Main.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -431,47 +431,6 @@ draw_bodyparts = function() {
 
 
 /// CAMERA
-
-// set camera
-	if(instance_exists(cont_camera)){
-		cont_camera.set_target(self, true);
-	}
-		
-/// /// /// /// /// /// /// ///
-
-#region /// DEBUG OVERLAY //
-
-	// debug overlay setup
-	global.playerCharacter_value_section = dbg_section("playerCharacter Value Section");
-	DBG_OVERLAY.add_variable(self,"parent");
-	
-	// seeing state
-	var _ref_state = ref_create(self,"state");
-	var _ref_current_state = ref_create(_ref_state,"current_state");
-	var _ref_state_name = ref_create(_ref_current_state, "name");
-	dbg_text($"state : ");
-	dbg_same_line();
-	dbg_text(_ref_state_name);
-	
-	// seeing variable
-	DBG_OVERLAY.add_variable(self, "sprite_index");
-	DBG_OVERLAY.add_variable(self, "x");
-	DBG_OVERLAY.add_variable(self, "y");
-	
-    DBG_OVERLAY.add_variable(self, "h_speed");
-    DBG_OVERLAY.add_variable(self, "v_speed");
-    DBG_OVERLAY.add_variable(self, "on_ground");
-    DBG_OVERLAY.add_variable(self, "jump_count");
-	
-    DBG_OVERLAY.add_variable(self.__, "can_dash");
-	DBG_OVERLAY.add_variable(self.__, "prev_y");
-	
-	//show_debug_overlay(false);
-	
-#endregion ///
-CONFIG.add_variable(character_color, "skin");
-CONFIG.add_variable(character_color, "eyes");
-CONFIG.add_variable(character_color, "hair");
-CONFIG.add_variable(character_color, "hat");
-CONFIG.add_variable(character_color, "shirt");
-CONFIG.add_variable(character_color, "pants");
+if(instance_exists(cont_camera)){
+	cont_camera.set_target(self, true);
+}

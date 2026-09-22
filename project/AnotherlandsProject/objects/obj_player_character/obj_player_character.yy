@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Character",
-    "path":"folders/src/Main/Player/Character.yy",
+    "path":"folders/src/Main/Features/Entities/Player/Character.yy",
   },
   "parentObjectId":null,
   "persistent":true,

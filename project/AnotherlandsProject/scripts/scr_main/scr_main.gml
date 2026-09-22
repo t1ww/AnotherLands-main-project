@@ -1,3 +1,6 @@
+// Main script of the game
+// Controls all global static configs
+// And keep the constants
 var _titles = [
 		"AnotherLands WIP", 
 		"Something funny here",
@@ -21,7 +24,7 @@ global.chosenTitle = array_choose(_titles);
     #macro GAME_HEIGHT 360
     
     // ==================================
-    // WINDOW / SCREEN SIZE (output size)
+    // WINDOW / SCREEN SIZE (default output size)
     // ==================================
     #macro WINDOW_WIDTH  1280
     #macro WINDOW_HEIGHT 720
@@ -35,7 +38,7 @@ global.chosenTitle = array_choose(_titles);
 	#macro mouse_y_gui device_mouse_y_to_gui(0)
 #endregion
 
-#region /// Config
+#region /// Versions Config
     // Initializations
     #macro START_ROOM rm_start
     #macro ADMIN false

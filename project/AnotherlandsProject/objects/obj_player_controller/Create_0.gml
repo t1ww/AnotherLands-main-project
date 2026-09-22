@@ -38,13 +38,6 @@
 		return self;
 	}
 	
-#region // DEBUG OVERLAY
-	dbg_set_view(cont_game.value_dbgview);
-	dbg_section("Player Value Section");
-	DBG_OVERLAY.add_variable(self.__,"input_h");
-	DBG_OVERLAY.add_variable(self.__,"input_v");
-#endregion
-	
 // CREATE CALLBACK
 	character_create(50,50);
 

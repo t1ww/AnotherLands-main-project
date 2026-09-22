@@ -6,7 +6,7 @@
   "name":"scr_word_generation",
   "parent":{
     "name":"WorldGeneration",
-    "path":"folders/src/Main/WorldGeneration.yy",
+    "path":"folders/src/Main/Features/World/WorldGeneration.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_gameConfig",
+  "%Name":"scr_config",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_gameConfig",
+  "name":"scr_config",
   "parent":{
     "name":"GameConfig",
-    "path":"folders/Data/GameConfig.yy",
+    "path":"folders/src/Data/GameConfig.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

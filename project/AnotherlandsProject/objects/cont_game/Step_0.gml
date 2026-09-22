@@ -12,7 +12,7 @@
 	If mouse is far from the character, get the nearest interactables to the character
 	Else get the nearest interactables to the mouse
 */
-	if (!instance_exists(obj_player_controller) || !instance_exists(obj_player_controller.character)) {
+	if (!instance_exists(obj_player_character)) {
 	    exit;
 	}
 	var _inst = null, _p = obj_player_controller.__.character.instance;
@@ -42,22 +42,4 @@
 	
 	// If _inst is different from nearest_interact, update it
 	if(_inst != nearest_interact) {nearest_interact = _inst;}
-#endregion
-
-array_foreach(step_functions, function(e,i) {
-	e();	
-});
-
-#region /// /// TESTING /// /// TESTING /// ///
-	if (cont_input.check_all(vk_shift, vk_enter, ord("L"))) {
-		obj_player_controller.character_destroy();
-	}
-	
-    pressed_button_counter = function() {
-		static enter_pressed_counter = 0;
-		return ++enter_pressed_counter;
-	}
-	if (cont_input.check_pressed(vk_enter)) {
-		EVENT_LISTENER.event_fire("pressed_button", pressed_button_counter());
-	}
 #endregion

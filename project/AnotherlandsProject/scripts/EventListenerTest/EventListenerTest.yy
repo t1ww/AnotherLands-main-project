@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_globalData",
+  "%Name":"EventListenerTest",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_globalData",
+  "name":"EventListenerTest",
   "parent":{
-    "name":"GameData",
-    "path":"folders/src/Data/GameData.yy",
+    "name":"Test",
+    "path":"folders/src/Test.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

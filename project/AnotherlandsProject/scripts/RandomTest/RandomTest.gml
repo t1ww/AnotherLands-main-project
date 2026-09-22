@@ -17,5 +17,5 @@ function test() {
 	randomise();
 
 	show_debug_message(irandom(1000)); // random
-	show_debug_message(irandom(1000)); // random	
+	show_debug_message(irandom(1000)); // random
 }

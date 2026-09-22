@@ -3,6 +3,7 @@
 global.world = { 
 	generated : false, 
 	travel_direction : RIGHT,
+	world_size: 0,
 	// defaults init
 	world_grid : null,
 	current_index : 0
@@ -11,18 +12,21 @@ global.world = {
 
 // ENUMERATORS
 enum WORLD_SIZE {
-	small, medium, large, extra_large
+	not_created, small, medium, large, extra_large
 }
 
-function get_world_size(_size) {
-    var _base_size = 11;
-    var WORLD_SIZE_VALUES = [0, 4, 8, 12];
+function get_world_size(_size_enum) {
+	if (_size_enum == 0) exit;
 
-    if (_size < 0 || _size >= array_length(WORLD_SIZE_VALUES)) {
+    var _base_size = 11;
+    var WORLD_SIZE_VALUES = [undefined, 0, 4, 8, 12];
+
+    if (_size_enum < 1 || _size_enum >= array_length(WORLD_SIZE_VALUES)) {
+		show_debug_message("World generation failed with wrong input");
         return -1;
     }
 
-    return _base_size + WORLD_SIZE_VALUES[_size];
+    return _base_size + WORLD_SIZE_VALUES[_size_enum];
 }
 
 /// WORLD SETUP

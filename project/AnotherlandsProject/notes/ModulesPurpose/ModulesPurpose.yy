@@ -3,8 +3,8 @@
   "%Name":"ModulesPurpose",
   "name":"ModulesPurpose",
   "parent":{
-    "name":"Modules",
-    "path":"folders/src/Main/Modules.yy",
+    "name":"MittechModules",
+    "path":"folders/src/Main/Features/UI/MittechModules.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
