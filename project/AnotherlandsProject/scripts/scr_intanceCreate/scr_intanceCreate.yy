@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_oop_patterns",
+  "%Name":"scr_intanceCreate",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_oop_patterns",
+  "name":"scr_intanceCreate",
   "parent":{
-    "name":"Builders",
-    "path":"folders/src/Utility/Builders.yy",
+    "name":"Miscellaneous",
+    "path":"folders/src/Utility/Miscellaneous.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

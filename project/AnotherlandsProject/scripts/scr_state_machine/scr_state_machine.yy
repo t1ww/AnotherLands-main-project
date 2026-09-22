@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_state_machine",
   "parent":{
-    "name":"Miscellaneous",
-    "path":"folders/src/Utility/Miscellaneous.yy",
+    "name":"StateMachine",
+    "path":"folders/src/Utility/StateMachine.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

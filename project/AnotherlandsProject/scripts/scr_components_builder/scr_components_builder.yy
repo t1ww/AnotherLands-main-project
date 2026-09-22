@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_components_builder",
   "parent":{
-    "name":"Miscellaneous",
-    "path":"folders/src/Utility/Miscellaneous.yy",
+    "name":"Builders",
+    "path":"folders/src/Utility/Builders.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

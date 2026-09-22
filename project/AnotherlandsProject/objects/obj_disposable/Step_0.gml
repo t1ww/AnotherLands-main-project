@@ -1,5 +1,4 @@
-/// @description  desc -- obj_disposable
-// event : step
+/// @description > obj_disposable Step event
 // code here >
 
 // Run step if it can

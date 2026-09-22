@@ -1,5 +1,4 @@
-/// @description  desc -- obj_disposable
-// event : create
+/// @description > obj_disposable Create event
 // code here >
 // This object is for quick disposable use;
 // Create, set step, set draw, and leave it.
@@ -25,3 +24,5 @@ set_draw = function(_func){
 if(is_callable(create)) {
 	create();
 }
+
+show_debug_message("obj_disposable was created");

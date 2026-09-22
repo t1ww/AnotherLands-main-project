@@ -95,7 +95,7 @@ function state_machine() constructor {
 		if (current_state != null) {
 			current_state.stop();
 		}
-		show_debug_message("------------------");
+		
 		// set and start new state
 		current_state = _state;
 		current_state.start();

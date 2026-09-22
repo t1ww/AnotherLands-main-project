@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_oop_patterns",
+  "%Name":"TestRandom",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_oop_patterns",
+  "name":"TestRandom",
   "parent":{
-    "name":"Builders",
-    "path":"folders/src/Utility/Builders.yy",
+    "name":"TestRuns",
+    "path":"folders/src/Test/TestRuns.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

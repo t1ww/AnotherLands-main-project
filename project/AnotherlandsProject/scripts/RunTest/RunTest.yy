@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"RandomTest",
+  "%Name":"RunTest",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"RandomTest",
+  "name":"RunTest",
   "parent":{
-    "name":"Test",
-    "path":"folders/src/Test.yy",
+    "name":"TestRuns",
+    "path":"folders/src/Test/TestRuns.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

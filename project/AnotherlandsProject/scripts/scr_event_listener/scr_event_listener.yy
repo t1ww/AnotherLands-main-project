@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_event_listener",
   "parent":{
-    "name":"Miscellaneous",
-    "path":"folders/src/Utility/Miscellaneous.yy",
+    "name":"EventListener",
+    "path":"folders/src/Utility/EventListener.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
