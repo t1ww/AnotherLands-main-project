@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_event_listener",
+  "%Name":"scr_eventListener",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_event_listener",
+  "name":"scr_eventListener",
   "parent":{
     "name":"EventListener",
     "path":"folders/src/Utility/EventListener.yy",

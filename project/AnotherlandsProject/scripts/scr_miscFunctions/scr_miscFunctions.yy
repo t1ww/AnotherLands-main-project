@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_misc_functions",
+  "%Name":"scr_miscFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_misc_functions",
+  "name":"scr_miscFunctions",
   "parent":{
     "name":"Miscellaneous",
     "path":"folders/src/Utility/Miscellaneous.yy",
