@@ -3,8 +3,8 @@
 // Camera
 camera = view_get_camera(0);
 
-half_cam_x = camera_get_view_width(camera) * 0.5;
-half_cam_y = camera_get_view_height(camera) * 0.5;
+half_cam_x = GAME_WIDTH * 0.5;
+half_cam_y = GAME_HEIGHT * 0.5;
 
 // Target
 target = {

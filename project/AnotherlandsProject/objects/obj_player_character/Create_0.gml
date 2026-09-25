@@ -1,7 +1,12 @@
 /// @description > playable character create event
 // > Imports
-    import(cmp_player_input);
+    // Components
+	import(cmp_player_input);
     import(cmp_eyes_blinking);
+	import(cmp_animationState);
+	import(cmp_logicalState);
+	
+	// Debug
 	import(cmp_debugPlayer);
 // > code here
 // Set player 1 unit closer to the screen
@@ -75,8 +80,8 @@ depth -= 1;
 #endregion 
 
 /// player functions
-	// MOVEMENTS
-	movement = function() {
+// MOVEMENTS
+movement = function() {
 		// INPUT CHECK
 		var _h_input = cmp_player_input.get_h();
 		var _v_input = cmp_player_input.get_v();
@@ -128,8 +133,8 @@ depth -= 1;
 		var _moving = (h_speed != 0 or !on_ground);
 		return _moving;
 	}
-	// //
-	movement_collision = function(_hsp, _vsp, _collsion_object) {
+// //
+movement_collision = function(_hsp, _vsp, _collsion_object) {
 		// apply speed with collision
 		// Horizontal move & collide
 		var _h_colliders = move_and_collide(_hsp, 0, _collsion_object, abs(_hsp));
@@ -143,21 +148,21 @@ depth -= 1;
 		//}
 		return { h_colliders : _h_colliders, v_colliders : _v_colliders };
 	}
-	
-	/// OTHERS
-	set_sprite = function(_spr) {
+
+/// OTHERS
+set_sprite = function(_spr) {
 		if(sprite_index != _spr) {
 			sprite_index = _spr;	
 		}
 	}
-	// //
-	animation_wrap = function(_start, _end) {
+// //
+animation_wrap = function(_start, _end) {
 		if (image_index < _start or image_index > _end) {
 			image_index = _start;
 		}
 	}
-	
-	on_ground_check = function() {
+
+on_ground_check = function() {
 		if (y != __.prev_y or !place_meeting(x,bbox_bottom,obj_collision)) {
 			on_ground = false;
 			__.prev_y = y;
@@ -165,217 +170,43 @@ depth -= 1;
 			on_ground = true;	
 		}
 	}
-	// //
-	jump = function() {
+// //
+jump = function() {
 		jump_array[jump_count]();
 		jump_count++;	
 	}
-	// //
-	jump_ext = function(_hsp,_vsp,_extra_function = function() {}) {
+// //
+jump_ext = function(_hsp,_vsp,_extra_function = function() {}) {
 		h_speed += _hsp;
 		v_speed =  _vsp;
 		_extra_function();
 	}
-	// //
-	set_facing_direction = function(_dir) {
+// //
+set_facing_direction = function(_dir) {
 		facing_direction = (_dir == 0)? 1: _dir;
 		image_xscale     = facing_direction;	
 	}
-	
-	/// HANDLES
-	// dashing
-		handle_dash = function() {
+
+/// HANDLES
+// dashing
+	handle_dash = function() {
 			var _dash = cmp_player_input.get_dash();
 			if (_dash and __.can_dash) {
 				state.set_state(state.dash);
 			}	
 		}
-		
-	/// SETTER
-	// position
-	set_pos = function(_x,_y){
-		x = _x;
-		y = _y;
-		return self;
-	}
-
-#region /// /// ANIMATION STATE /// ///
-// state
-	animation_state = new state_machine();
-	with animation_state {
-		animation_frame = 0;
-		reset_frame = function(){}
-		animate = function() {
-			animation_wrap(frame_start, frame_stop);
-			animation_frame = image_index - frame_start;
-		}
-		set_sprite = function(_sprite) {
-			if sprite_index != _sprite
-				sprite_index = _sprite;
-				return self;
-		}
-	}
-/// STATE IDLE
-	animation_state.idle = new animation_state.state_create()
-		.set_name("animation idle")
-		.set_step(function() {
-			animation_wrap(0, 5);
-		});
-    animation_state.walk = new animation_state.state_create()
-        .set_name("animation walk")
-        .set_step(function() {
-			animation_wrap(6, 13);
-		});
-	animation_state.run = new animation_state.state_create()
-		.set_name("animation run")
-		.set_step(function() {
-			animation_wrap(14, 20);
-		});
-	animation_state.jump_up = new animation_state.state_create()
-		.set_name("animation jump_up")
-		.set_step(function() {
-			animation_wrap(20, 23);
-		});
-	animation_state.falling_down = new animation_state.state_create()
-		.set_name("animation falling_down")
-		.set_step(function() {
-			animation_wrap(23, 25);
-		});
-
-#endregion /// /// ANIMATION STATE /// ///
 	
-#region ///	/// STATE MACHINE /// ///
-// state
-	state = new state_machine();
-/// STATE IDLE
-	state.idle = new state.state_create()
-		.set_name("state idle")
-		.set_step (function() {
-			// if move, state free
-			if (movement() and on_ground) {
-				state.set_state(state.free);
-			}
-			/// ANIMATION
-			animation_state.set_state(animation_state.idle);
-		} )
-		.set_start(function() {
-			// start
-			set_sprite(spr_player);
-		} )
-		.set_stop (function() {
-            // stop
-		} );
-	
-/// STATE FREE
-	state.free = new state.state_create()
-		.set_name ("state free")
-		.set_step (function() {
-			// if not moving, state idle
-			if (!movement()) {
-				state.set_state(state.idle);
-			}
-			/// ANIMATION
-			if (h_speed != 0) {
-				movement_direction = sign(h_speed);
-				// Delay by 3-7 frames to create smooth transition feels.
-				if (movement_direction != facing_direction) {
-					call_later(irandom_range(3, 7), time_source_units_frames, function(){
-						set_facing_direction(movement_direction);
-					})
-				}
-			}
-			if (!cmp_player_input.get_sprint().check){
-				// walk
-				animation_state.set_state(animation_state.walk);
-			} else {
-				// run
-				handle_dash();
-				animation_state.set_state(animation_state.run);
-			}
-		} )
-		.set_start(function() {
-			// start
-			set_sprite(spr_player);
-		} )
-		.set_stop (function() {
-            // stop
-		} );
-	
-/// STATE JUMP
-	state.mid_air = new state.state_create()
-		.set_name ("state mid air")
-		.set_step (function() {
-			// controls	
-			movement();
-			if(on_ground){
-				state.set_state(state.free);
-			}
-			/// ANIMATION
-			if (h_speed != 0) {
-				movement_direction = sign(h_speed);
-				// Delay by 3-7 frames to create smooth transition feels.
-				if (movement_direction != facing_direction) {
-					call_later(irandom_range(3, 7), time_source_units_frames, function(){
-						set_facing_direction(movement_direction);
-					})
-				}
-			}
-			// will be changed
-			if (v_speed < 0) {
-				animation_state.set_state(animation_state.jump_up);
-			} else {
-				animation_state.set_state(animation_state.falling_down);
-			}
-		} )
-		.set_start(function() {
-			// start
-			set_sprite(spr_player);
-		} )
-		.set_stop (function() {
-			// stop
-			jump_count = 0;  // reset jumps
-		} );
-		
-/// STATE DASH 
-	state.dash = new state.state_create()
-		.set_name ("state dash")
-		.set_step (function() {
-			// create trail
-			var _inst = cont_game.create_entity(x,y,obj_player_trail);
-			_inst.set_sprite(self.sprite_index);
-			_inst.image_xscale = self.image_xscale;
-			// dash to the direction
-			h_speed = (max(__.dash_speed--, 1)) * __.dash_dir;
-			// moving vertically ( gravity )
-			v_speed = v_speed + (grv/2);
-			// move & collide
-			var _colliders = movement_collision(h_speed,v_speed,obj_collision);
-			if(__.dash_speed < 1) {
-				state.set_state(state.free);
-				var _ts_reset_dash = time_source_create(time_source_game, .5, time_source_units_seconds, function(){
-					__.can_dash = true;
-				});
-				time_source_start(_ts_reset_dash);
-			}
-		} )
-		.set_start(function() {
-			// start
-			__.dash_dir = facing_direction;
-			__.dash_speed =  __.base_speed * 6;
-			__.can_dash = false;
-			set_facing_direction(__.dash_dir);
-		} )
-		.set_stop(function() {
-            // stop
-		} );
-		
-/// STATE DYING
+/// SETTER
+// position
+set_pos = function(_x,_y){
+	x = _x;
+	y = _y;
+	return self;
+}
 
-	// set state
-	state.set_state(state.idle);
-
-#endregion ///	/// STATE MACHINE /// ///
-
+// States
+animation_state = cmp_animationState.init();
+state = cmp_logicalState.init();
 
 /// CREATE CALLING
 // body parts initialization
@@ -435,5 +266,6 @@ cont_camera.set_target(self)
 	.set_look_ahead(true);
 
 // Debug
-cmp_debugPlayer.watches()
-cmp_debugPlayer.parts_color_picker()
+cmp_debugPlayer.watches();
+cmp_debugPlayer.parts_color_picker();
+show_debug_overlay(false);

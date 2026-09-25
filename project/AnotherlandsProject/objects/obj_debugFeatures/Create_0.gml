@@ -1,9 +1,10 @@
 /// @description > obj_debug_features Create event
-// > imports
-import(cmp_debugPlayer);
-// > code here
 // This object is for setting up debug features, debug overlay
 // As well as variables used to monitor for debugging
+// > imports
+import(cmp_debugPlayer);
+
+// > code here
 // Mouse coords
 dbg_mouse_x = mouse_x;
 dbg_mouse_y = mouse_y;
@@ -23,7 +24,6 @@ toggle_debug = function() {
 	// Actual toggle
 	debug = !debug;
 	show_debug_overlay(debug);
-	show_debug_log(debug);
 }
 
 toggle_collision_visible = function() {
@@ -57,7 +57,7 @@ dbg_watch(ref_create(self,"mx_gui"));
 dbg_watch(ref_create(self,"my_gui"));
 
 /// CONTROL DEBUGGER (buttons and other things for testing)
-control_dbgview = dbg_view("Dev Controls",DEVELOPMENT);
+control_dbgview = dbg_view("Dev Controls", false);
 
 // SECTION TELEPORT
 dbg_section("Room Goto");
@@ -81,3 +81,7 @@ dbg_button("generate", function() {
 });
 dbg_same_line();
 dbg_text("world");
+
+// Keep the log on from the start but hide it
+show_debug_log(true);
+show_debug_overlay(false);

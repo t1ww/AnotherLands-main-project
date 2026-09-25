@@ -5,10 +5,7 @@
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
-    "children":[
-      {"children":[],"name":"Test",},
-      {"children":[],"name":"Release",},
-    ],
+    "children":[],
     "name":"Default",
   },
   "defaultScriptType":1,
@@ -110,9 +107,11 @@
     {"id":{"name":"OFL","path":"notes/OFL/OFL.yy",},},
     {"id":{"name":"temp_notes","path":"notes/temp_notes/temp_notes.yy",},},
     {"id":{"name":"testing rooms list","path":"notes/testing rooms list/testing rooms list.yy",},},
+    {"id":{"name":"cmp_animationState","path":"objects/cmp_animationState/cmp_animationState.yy",},},
     {"id":{"name":"cmp_connection","path":"objects/cmp_connection/cmp_connection.yy",},},
     {"id":{"name":"cmp_debugPlayer","path":"objects/cmp_debugPlayer/cmp_debugPlayer.yy",},},
     {"id":{"name":"cmp_eyes_blinking","path":"objects/cmp_eyes_blinking/cmp_eyes_blinking.yy",},},
+    {"id":{"name":"cmp_logicalState","path":"objects/cmp_logicalState/cmp_logicalState.yy",},},
     {"id":{"name":"cmp_player_input","path":"objects/cmp_player_input/cmp_player_input.yy",},},
     {"id":{"name":"cont_camera","path":"objects/cont_camera/cont_camera.yy",},},
     {"id":{"name":"cont_game","path":"objects/cont_game/cont_game.yy",},},

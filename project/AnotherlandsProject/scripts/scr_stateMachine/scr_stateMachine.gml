@@ -78,10 +78,7 @@
 
 function state_machine() constructor {
 	current_state = null;
-	parent = other.id;
-	show_debug_message(parent.name + " is the parent of this state");
-	
-	step = function () {
+	step = function() {
 		current_state.step();
 	}
 	
@@ -114,15 +111,15 @@ function state_machine() constructor {
 			name = _name;
 			return self;
 		}
-		set_start = function(_script){
+		set_start = function(_script) {
 			start = _script;
 			return self;
 		}
-		set_step = function(_script){
+		set_step = function(_script) {
 			step = _script;	
 			return self;
 		}
-		set_stop = function(_script){
+		set_stop = function(_script) {
 			stop = _script;
 			return self;
 		}

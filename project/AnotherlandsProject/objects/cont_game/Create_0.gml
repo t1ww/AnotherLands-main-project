@@ -52,7 +52,8 @@ game_start = function() {
 	WORLD.generate(WORLD_SIZE.extra_large);
 	
 	// Room-go-to start room
-	room_goto(array_choose(global.biome_starter.another_lands).room_id);
+	room_goto(START_ROOM);
+	// Random starter room array_choose(global.biome_starter.another_lands).room_id
 }
 	
 /// GAME START UP CODES ///
@@ -64,9 +65,6 @@ draw_set_default();
 
 // Create persistent controllers
 create_persistent_controllers();
-
-// Set debug overlay to false	
-show_debug_overlay(false);
 
 // Set texture (turn of pixel interpolation)
 gpu_set_tex_filter(false);
