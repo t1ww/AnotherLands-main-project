@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"icon_parent",
+    "path":"sprites/icon_parent/icon_parent.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

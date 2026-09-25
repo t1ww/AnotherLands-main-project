@@ -1,7 +1,8 @@
-/// @description obj_sky : create event
+/// @description > obj_sky create event
 // Created in "scene" layer every room enter
 // Handles everything happening in sky
 // clouds, sun, sky color, sky critters
+// > code here
 // Make sure its far back from the scene
 depth += 1;
 
@@ -27,5 +28,3 @@ with(underground_black_box) {
 		}
 	});
 }
-
-// Timer and random chance of critter spawn

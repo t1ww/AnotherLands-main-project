@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_destroyFromArray",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_destroyFromArray",
+  "parent":{
+    "name":"Miscellaneous",
+    "path":"folders/src/Utility/Miscellaneous.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

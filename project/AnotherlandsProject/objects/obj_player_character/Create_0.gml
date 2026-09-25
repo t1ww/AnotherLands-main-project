@@ -2,6 +2,7 @@
 // > Imports
     import(cmp_player_input);
     import(cmp_eyes_blinking);
+	import(cmp_debugPlayer);
 // > code here
 // Set player 1 unit closer to the screen
 depth -= 1;
@@ -432,3 +433,7 @@ draw_bodyparts = function() {
 /// CAMERA
 cont_camera.set_target(self)
 	.set_look_ahead(true);
+
+// Debug
+cmp_debugPlayer.watches()
+cmp_debugPlayer.parts_color_picker()

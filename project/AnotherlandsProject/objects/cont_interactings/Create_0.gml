@@ -1,4 +1,4 @@
-/// @description > objectname eventname event
-// > import here
-
+/// @description > cont_interactings create event
 // > code here
+// Variable initialization
+nearest_interact = null;
