@@ -10,13 +10,15 @@ dbg_mouse_y_gui = mouse_y_gui;
 // Keys-combo features
 // Quick game end
 if (keyboard_check(vk_lshift)) {
-	game_end();	
+	if (keyboard_check(vk_escape)) {
+		game_end();	
+	}
 }
 
 // Quick restart
 if (keyboard_check(vk_lshift)) {
 	if (keyboard_check(ord("R"))) {
-		game_restart();	
+		game_restart();
 	}
 }
 

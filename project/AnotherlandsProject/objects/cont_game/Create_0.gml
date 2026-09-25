@@ -34,8 +34,8 @@ create_persistent_controllers = function() {
 }
 
 create_ingame_controllers = function() {
-	for(var _i = 0; _i < array_length(persistent_controller_list); _i++) {
-		create_controller(persistent_controller_list[_i]);	
+	for(var _i = 0; _i < array_length(ingame_controller_list); _i++) {
+		create_controller(ingame_controller_list[_i]);	
 	}
 }
 

@@ -7,7 +7,7 @@ if (cont_interactings.nearest_interact == id) {
 }
 
 // key interact press
-if (cont_interactings.check_pressed(ord(key_interact)) 
+if (cont_input.check_pressed(ord(key_interact)) 
 	&& focused) {
 	// run the script
 	on_interact();
