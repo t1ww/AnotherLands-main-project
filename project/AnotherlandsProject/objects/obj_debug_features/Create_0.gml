@@ -1,7 +1,6 @@
-/// @description > obj_debug_overlay Create event
-// This object is for setting up debug overlay
-// As well as variables use for testing
-
+/// @description > obj_debug_features Create event
+// This object is for setting up debug features, debug overlay
+// As well as variables used to monitor for debugging
 // Mouse coords
 dbg_mouse_x = mouse_x;
 dbg_mouse_y = mouse_y;
@@ -100,7 +99,7 @@ var _shirt_ref = ref_create(CONFIG, "shirt_color_picker");
 dbg_color(_shirt_ref,"player_shirt_color");
 
 var _pants_ref = ref_create(CONFIG, "pants_color_picker");
-dbg_color(_pants_ref,"player_pants_color");	
+dbg_color(_pants_ref,"player_pants_color");
 
 // SECTION TELEPORT
 dbg_section("Room Goto");

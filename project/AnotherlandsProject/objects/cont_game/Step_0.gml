@@ -1,12 +1,5 @@
 /// @description > cont_game Step event
-// Variable for debug ref
-	// Mouse coords
-	dbg_mouse_x = mouse_x;
-	dbg_mouse_y = mouse_y;
-	// Mouse coords to gui
-	dbg_mouse_x_gui = mouse_x_gui;
-	dbg_mouse_y_gui = mouse_y_gui;
-	
+// > code here
 #region /// interactables
 /*
 	If mouse is far from the character, get the nearest interactables to the character

@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"cont_game",
+  "%Name":"cont_interactings",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"cont_game",
+  "name":"cont_interactings",
   "overriddenProperties":[],
   "parent":{
     "name":"Controllers",
     "path":"folders/src/Main/Controllers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"p_controllers",
+    "path":"objects/p_controllers/p_controllers.yy",
+  },
   "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"icon_game",
-    "path":"sprites/icon_game/icon_game.yy",
+    "name":"icon_interact",
+    "path":"sprites/icon_interact/icon_interact.yy",
   },
   "spriteMaskId":null,
   "visible":true,

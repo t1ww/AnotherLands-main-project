@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Icons",
-    "path":"folders/Assets/Icons.yy",
+    "name":"development",
+    "path":"folders/Assets/Icons/development.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

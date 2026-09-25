@@ -1,12 +1,13 @@
-// cmp_eyes_blinking
-persistent = true; // Component stay alive
-visible = false; // Component stay hidden
+/// @description > objectname eventname event
+// > code here
+// Inherit the parent event
+event_inherited();
 
-// variables
+// Variables
 is_open = true;
 blink_frequency = .7; // second
 
-// logic
+// Logic
 ts_start_blink = time_source_create(time_source_game, blink_frequency, time_source_units_seconds, function() {
 	is_open = false;
 	time_source_start(ts_stop_blink);

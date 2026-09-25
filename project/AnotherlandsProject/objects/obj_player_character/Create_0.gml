@@ -429,8 +429,6 @@ draw_bodyparts = function() {
     });
 }
 
-
 /// CAMERA
-if(instance_exists(cont_camera)){
-	cont_camera.set_target(self, true);
-}
+cont_camera.set_target(self)
+	.set_look_ahead(true);
