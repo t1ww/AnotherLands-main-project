@@ -3,6 +3,9 @@
     // Components
 	import(cmp_player_input);
     import(cmp_eyes_blinking);
+	
+	// States: CURRENTLY DOES NOT WORK
+	// > soln: pass in the instance for state creation to run in
 	import(cmp_animationState);
 	import(cmp_logicalState);
 	
