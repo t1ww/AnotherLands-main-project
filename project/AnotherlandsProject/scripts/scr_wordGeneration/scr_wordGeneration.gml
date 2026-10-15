@@ -34,30 +34,44 @@ function get_world_size(_size_enum) {
 global.biomes_amount = 2;
 global.biome_tier_arrays = array_create(global.biomes_amount);
 global.biome_tier_arrays[0] = {
-	left  : [
-				{name: "rm_forest_simple_left"	  , room_id: rm_forest_left_01},
-			],
-	right : [
-				{name: "rm_forest_simple_right"	  , room_id: rm_forest_right_01},
-				{name: "rm_forest_river_right"	  , room_id: rm_forest_right_02}, 
-			],
-	towns : [
-				{name: "rm_forest_town"	  , room_id: rm_forest_town},
-				{name: "rm_forest_village", room_id: rm_forest_village}
-			]
+	left: [
+		{name: "rm_forest_simple_left", room_id: rm_forest_left_01},
+	],
+	right: [
+		{name: "rm_forest_simple_right", room_id: rm_forest_right_01},
+		{name: "rm_forest_river_right", room_id: rm_forest_right_02}, 
+	],
+	towns: [
+		{name: "rm_forest_town", room_id: rm_forest_town},
+		{name: "rm_forest_village", room_id: rm_forest_village}
+	]
 };
 global.biome_tier_arrays[1] = {
-	left  : [{name: "rm_plains_simple_left" , room_id: rm_plains_left_01}],
-	right : [{name: "rm_plains_simple_right", room_id: rm_plains_right_01}],
-	towns : [{name: "rm_forest_city"		, room_id: rm_forest_city}]
+	left: [
+		{name: "rm_plains_simple_left", room_id: rm_plains_left_01}
+	],
+	right: [
+		{name: "rm_plains_simple_right", room_id: rm_plains_right_01}
+	],
+	towns: [
+		{name: "rm_forest_city", room_id: rm_forest_city}
+	]
 };
 global.biome_starter = {
-	another_lands : [{name:"rm_start", room_id: rm_start}],
-	towns : [{name:"rm_starter_town_1", room_id: rm_starter_town_01}],
+	another_lands: [
+		{name:"rm_start", room_id: rm_start}
+	],
+	towns: [
+		{name:"rm_starter_town_1", room_id: rm_starter_town_01}
+	],
 }
 global.biome_oceans_towns = {
-	left  : [{name:"rm_ocean_village_left" , room_id: rm_ocean_village_left}],
-	right : [{name:"rm_ocean_village_right", room_id: rm_ocean_village_right}],
+	left: [
+		{name:"rm_ocean_village_left" , room_id: rm_ocean_village_left}
+	],
+	right: [
+		{name:"rm_ocean_village_right", room_id: rm_ocean_village_right}
+	],
 }
 
 // Randomize next anotherlands room
