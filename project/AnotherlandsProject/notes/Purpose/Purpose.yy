@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Purpose",
+  "name":"Purpose",
+  "parent":{
+    "name":"MittechApps",
+    "path":"folders/src/Main/Features/UI/MittechApps.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

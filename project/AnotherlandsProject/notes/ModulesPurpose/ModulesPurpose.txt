@@ -1,2 +1,0 @@
-# This folder contains
-- All of the systems available for menu, or mittech hub.
