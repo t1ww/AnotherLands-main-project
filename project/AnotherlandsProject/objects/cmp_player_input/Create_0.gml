@@ -1,15 +1,16 @@
 // cmp_player_input
-persistent = true; // Component stay alive
-visible = false; // Component stay hidden
+// > code here
+// Inherit the parent event
+event_inherited()
 
-// horizontal movement
+// Horizontal movement
 get_h = function() {
     var l = cont_input.check_hold(vk_left, ord("A"));
     var r = cont_input.check_hold(vk_right, ord("D"));
     return r - l;
 };
 
-// vertical / jump
+// Vertical movement / jump
 get_v = function() {
     var k = vk_space;
     return {
@@ -18,7 +19,7 @@ get_v = function() {
     };
 };
 
-// sprint
+// Sprint
 get_sprint = function() {
     var k = vk_lshift;
     return {
@@ -28,12 +29,12 @@ get_sprint = function() {
     };
 };
 
-// dash
+// Dash
 get_dash = function() {
     return cont_input.check_pressed(ord("C"));
 };
 
-// any input
+// Any input
 get_any = function() {
     var v = get_v();
     var s = get_sprint();

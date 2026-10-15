@@ -1,4 +1,5 @@
 /// @description cont_time Create event
+// > code here
 // Variables
 ticks_per_second = 60;
 
