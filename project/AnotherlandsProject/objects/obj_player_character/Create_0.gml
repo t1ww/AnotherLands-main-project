@@ -208,8 +208,8 @@ set_pos = function(_x,_y){
 }
 
 // States
-cmp_animationState.init(self);
-cmp_logicalState.init(self);
+cmp_animationState.init_on_instance(self);
+cmp_logicalState.init_on_instance(self);
 
 /// CREATE CALLING
 // body parts initialization
