@@ -1,6 +1,5 @@
-/// @description desc
+/// @description > obj_player_trail create event
 // code here >
-
 image_alpha = 1;
 
 set_sprite = function(_spr) {

@@ -1,5 +1,9 @@
-/// @description fade out
+/// @description > obj_player_trail step event
 // code here >
-
+// Fade out
 image_alpha -= .1;
-if(image_alpha == 0) instance_destroy();
+
+// Destroy when fully transparent
+if (image_alpha == 0) { 
+	instance_destroy();
+}
