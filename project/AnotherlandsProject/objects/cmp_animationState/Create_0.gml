@@ -3,8 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
-/// /// ANIMATION STATE /// ///
-init = function() {
+on_init = function() {
+	// Initialization
 	animation_state = new state_machine();
 	with (animation_state) {
 		animation_frame = 0;
@@ -19,15 +19,16 @@ init = function() {
 				return self;
 		}
 	}
-/// STATE IDLE
+	
+	// States
 	animation_state.idle = new animation_state.state_create()
 		.set_name("animation idle")
 		.set_step(function() {
 			animation_wrap(0, 5);
 		});
-    animation_state.walk = new animation_state.state_create()
-        .set_name("animation walk")
-        .set_step(function() {
+	animation_state.walk = new animation_state.state_create()
+	    .set_name("animation walk")
+	    .set_step(function() {
 			animation_wrap(6, 13);
 		});
 	animation_state.run = new animation_state.state_create()
@@ -44,7 +45,5 @@ init = function() {
 		.set_name("animation falling_down")
 		.set_step(function() {
 			animation_wrap(23, 25);
-		});
-		
-	return animation_state;
+		});	
 }

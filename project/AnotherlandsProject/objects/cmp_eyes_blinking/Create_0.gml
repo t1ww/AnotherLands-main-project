@@ -16,4 +16,5 @@ ts_stop_blink = time_source_create(time_source_game, (blink_frequency*.25), time
 	is_open = true;
 	time_source_start(ts_start_blink);
 });
+
 time_source_start(ts_start_blink);

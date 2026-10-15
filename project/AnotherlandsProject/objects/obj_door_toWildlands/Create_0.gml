@@ -26,7 +26,7 @@ if (WORLD.current_index == -1) {
 	target_room = choose(next_town, random_land);
 }
 
-script = function() {
+on_interact = function() {
 	if (WORLD.generated != false) {
 		if (target_room == next_town) {
 			WORLD.current_index = next_index;	

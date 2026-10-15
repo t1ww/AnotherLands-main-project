@@ -2,7 +2,7 @@
 event_inherited();
 
 // code here >
-script = function(){
+on_interact = function(){
 	if (WORLD.generated != false) {
 		WORLD.travel_direction = travel_direction;
 		change_room( 
